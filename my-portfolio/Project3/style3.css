@@ -1,0 +1,3186 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: 'Quicksand','Montserrat','Arial', sans-serif, serif; 
+
+}
+body{
+	 display: grid;
+	grid-template: auto/100%; 
+	box-sizing: border-box;
+}
+
+header{
+	position: relative;
+	background-color: rgb(0,83,159);
+	height:90px;
+	width:100%
+}
+
+img.logo
+{
+	position: absolute;
+	height: 80px;
+    margin-left: 15%;
+    padding-top: 10px;
+}
+
+#top-navigator {
+	position: absolute;
+    display: block;
+    top: -86px;
+    right: 5%;
+    text-decoration: none;
+    list-style: none;
+}
+
+#top-navigator ul{
+    list-style: none;
+    display: flex;
+    margin-right: 15%;
+
+}
+
+ #top-navigator li a{
+	color: white;
+	text-decoration:none;
+	margin-right: 25px;
+	margin-top: 5px;
+    font-size: 1vw;
+	}
+
+a.fas.fa-map-marker-alt:before{
+	display: block;
+	text-align: center;
+    color: white;
+}
+
+a.fa.fa-gift:before{
+	display: block;
+	text-align: center;
+    color: white;
+}
+
+a.fa.fa-search:before{
+	display: block;
+	text-align: center;
+	font-size: 145%;
+    color: white;
+}
+
+a.fas.fa-graduation-cap:before{
+	display: block;
+	text-align: center;
+}
+
+.fas.fa-bars{
+	display: none;
+}
+
+
+
+.quick-links{
+    position: absolute;
+    display: block;
+    font-size: 1.2vw;
+}
+
+.top-yellow-box a{
+text-decoration: none;
+}
+
+a.fas.fa-chevron-down{
+	position: absolute;
+    text-decoration: none;
+    right: 5%;
+    top: 10px;
+}
+
+.videohero-frame{
+position: relative;
+display: flex;
+justify-content: center;
+text-align: end;
+border-top: 2px solid #fed600;
+}
+
+#videohero{
+  width: 100%;
+  height: auto;
+  position: relative;
+    display: block;
+  }
+.videohero-text{
+ 	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 14%;
+    font-size: 295%;
+    color: white;
+    bottom: 274px;
+ }
+
+.heroimg{
+	display: none;
+}
+ .videohero-text p{
+ font-family: 'Big Shoulders Display', cursive;
+ }
+
+.top-yellow-box {
+    width: 12%;
+    position: absolute;
+    padding-top: 8px;
+    height: 31px;
+    top: -31px;
+    right: 7%;
+    font-size: 1.2vw;
+    padding-left: 10px;
+    background-color: rgb(254,214,0);
+    text-align: left;
+}
+
+.overlay{
+	
+	width: 100%;
+	display: flex;
+	position: absolute;
+	background-color: black;
+	opacity: 65%;
+	
+	}
+
+.fas.fa-plus{
+    display: none;
+}
+ul.navbar{
+	display: flex;
+    position: relative;
+ 
+    list-style: none;
+	width: 100%;
+	height: 80px;
+	margin-top: 12px;
+    text-align: left;
+}
+
+ ul.navbar li a{
+	text-decoration: none;
+}
+
+
+.about-us,.prospective-students,.current-students,.faculty-staff,.alumni-friends,.acads,.research-innovation,.athlethics{
+		color: white;
+		font-size: 1.2vw;
+		font-weight: bold;
+        
+        display: inline-block;
+	}
+
+ a.about-us,a.prospective-students,a.current-students,a.faculty-staff,a.alumni-friends,a.acads,a.research-innovation,a.athlethics {
+
+   margin-right: 0;
+ }  
+
+a.about-us{
+width: 7%;
+left: 15%;
+position: absolute;
+height: 55px; 
+padding-top: 9px;
+padding-left: 11px;
+}
+
+a.prospective-students{
+width: 9%;
+left: 24%;
+position: absolute;
+height: 55px;
+padding-top: 9px;
+padding-left: 11px;
+
+}
+
+
+a.current-students{
+width: 8%; 
+height: 55px;
+left: 36%;
+position: absolute;
+padding-top: 9px;
+padding-left: 11px;
+
+}
+
+a.faculty-staff{
+width: 8%; 
+height: 55px;
+left: 46%;
+position: absolute;
+padding-top: 9px;
+padding-left: 11px;
+}
+
+a.alumni-friends{
+width: 7%; 
+height: 55px;
+left: 56%;
+position: absolute;
+padding-top: 9px;
+padding-left: 11px;
+}
+
+a.acads{
+width: 8%;
+height: 55px;
+left: 65%;
+position: absolute;
+padding-top: 9px;
+padding-left: 11px; 
+}
+
+a.research-innovation{
+width: 9%;
+height: 55px;
+left: 75%;
+position: absolute;
+padding-top: 9px;
+padding-left: 11px; 
+
+}
+
+a.athlethics{
+width: 7%;
+height: 55px;
+left: 85%;
+position: absolute;
+padding-top: 9px;
+padding-left: 11px;     
+	
+}
+
+.about-us:hover, .prospective-students:hover,.current-students:hover,
+.faculty-staff:hover,.alumni-friends:hover,.acads:hover,.research-innovation:hover,.athlethics:hover{
+background-color: white;
+color: blue;
+}
+.first-paragraph{
+	position: relative;
+}
+
+.chocolate{
+	color: #00539f;
+    text-align: center;
+    font-size: 2.7vw;
+    font-family: arial;
+    margin-top: 81px;
+}
+
+.first-p{
+padding-top: 10px;
+font-weight: 100;
+text-align: center;
+font-size: 2.1vw;
+color: #292626;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#middle-links{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 100px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.middle-links-list{
+    display: flex;
+    width: 100%;
+   justify-content: center;
+
+}
+.apply-today{
+	display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 17px;
+    width: 100%;
+    height: 55px;
+    color: white;
+    background-color: #00539f;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+.schedule-a-visit{
+	display: flex;
+    justify-content: center;
+    list-style: none;
+	margin-right: 20px;
+	margin-left: 20px;
+    padding-top: 17px;
+    width: 100%;
+    height: 55px;
+    color: white;
+    background-color: #00539f;
+}
+
+.building-finder{
+	display: flex;
+    justify-content: center;
+    list-style: none;
+	margin-right: 20px;
+    padding-top:17px;
+    width: 100%;
+    height: 55px;
+    color: white;
+    background-color: #00539f;
+}
+
+
+#middle-links ul li a{
+	font-size: 1.3vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.fas.fa-check-square.middle-links{
+    margin-right: 9%;
+}
+
+#middle-links li a.fa.fa-check-square-o{
+	margin-right: 10px;
+	color: white;
+}
+
+#middle-links li a.fa-map-marker-alt{	
+margin-right: 10px;
+color: white;
+}
+ 
+
+#middle-links li a.fa-mouse-pointer{
+	margin-right: 10px;
+	color: white;
+}
+
+
+.blue-control-box{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: end;
+		}
+
+
+.bg-blue{
+	height: 150vh;
+    width: 100%;
+   
+}
+
+.control-box{
+	position: absolute;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 82%;
+    top:  19%;
+     	}
+
+    p.hotdog{
+	position: absolute;
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding-left: 10px;
+}
+
+	.video-wrapper{
+		position: relative;
+		display: flex;
+        justify-content: center;
+		width: 62%; 
+    	height: 64%;
+	}
+
+.marketing-bluebox{
+    color: black;
+    position: absolute;
+    font-size: 1em;
+    top: 109px;
+    left: 2%;
+
+}
+
+
+.marketing-mid-bluebox{
+    position: absolute;
+    top: 40%;
+    width: 47%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#back-to-school{
+    display: flex;
+    justify-content: center;
+	margin-top: 86px;
+    width: 100%; 
+    height: 75%;
+}
+
+.video-wrapper a.fas.fa-clock {
+    position: absolute;
+    top: 108px;
+    text-decoration: none;
+    display: grid;
+    text-align: center;
+    color: black;
+    right: 15%;
+}
+   
+.video-wrapper a.fas.fa-share{
+    position: absolute;
+    text-decoration: none;
+    display: grid;
+    text-align: center;
+    top: 108px;
+    right: 23px;
+    color: black;
+}
+
+   .standard-image{
+	display: inline-block;
+	position: absolute;
+	width: 35%;
+    height: 36%;
+    margin-top: 86px;
+    right: 0px;
+    }
+
+.visit-box{
+	position: absolute;
+    width: 5%;
+    height: 6.5%;
+    right: 30%;
+    top: 41.7%;
+    background-color: black;
+    opacity: 76%;
+}
+  
+a.fas.fa-image{
+	position: absolute;
+	right: 27%;
+    top: 33%;
+    font-size: 1vw;
+    color: white;
+}
+a.school-text{
+	display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 35%;
+    height: 12.5%;
+    top: 48%;
+    right: 0px;
+   	background-color: white;
+  	text-decoration: none;
+  	}
+
+.school-text i{
+	font-size: 20px;
+    color: #00a4e5;
+    margin-left: 27%;
+    margin-top: 28px;
+   }
+
+.text{
+	display: block;
+}
+
+p.december{
+	display: flex;
+	font-size: 1vw;
+    margin-left: 15px;
+    padding-top: 19px;
+    margin-bottom: 9px;
+    color: black;
+}
+
+p.school-galleries{
+	display: flex;
+	font-size:1.8vw;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    color: #555555;
+    }
+
+a.newsroom{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 0px;
+    bottom: 27%;
+    width: 35%;
+    margin-left: 20px;
+    height: 11vh;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 19px;
+	background-color: #ffd200;
+}
+
+p.news{
+	color:#00539f;
+	font-weight: bold;
+	font-family: roboto;
+    font-size: 1.3vw;
+}
+
+.newsroom i{
+font-size: 20px;
+color: #00539f;
+padding-left: 2%;	
+}
+
+.upcoming-event{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.bg-yellow{
+    width:100%;
+    height: 92vh;
+    }
+
+.yellow-control-box{
+	position: absolute;
+	top: 13%;
+	display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    height: 73%;
+ }
+
+.event-box{
+	position: absolute;
+    display: inline-block;
+    width: 52%;
+    height: 84%;
+}
+.upcoming{
+	margin-bottom:  23px;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: roboto;
+    color: #333333;
+    left: 0px;
+}
+
+.yellow-box-standard-image{
+	
+	border-color: white;
+	border-style: solid;
+	border-width: 10px;
+	width: 96%;
+    height: 76%;
+   
+}
+
+.Summer-session-text{
+width: 96%;
+height: 28.5%;
+padding-left: 10px;
+margin-top: -19px;
+background-color: white;
+}
+
+.july1{
+	font-family: roboto;
+    line-height: 208%;
+    font-size: .85vw;
+    font-weight: bold;
+    padding-top: 11px;
+    color: #434343;
+}
+
+.realwork{
+	line-height: 135%;
+    font-size: .9vw;
+}
+
+.Summer-session-text p.schedule{
+	color: rgb(90,128,183);
+	font-size: .87vw;
+	font-family: roboto;
+	line-height: 180%;
+}
+
+.calender{
+position: absolute;
+margin-top: 6px;
+right: 0px;
+width: 48%;
+height: 83%;
+top: 39px;
+border: 3px solid #cccccc;
+}
+
+.holidays{
+	width: 100%;
+    height: 17%;
+    background-color: white;
+    
+    }
+
+.holidays-blue-part{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	border-right: #cccccc solid 2px;
+    border-bottom: #cccccc solid 1px; 
+    width: 6%;
+	height: 17%;
+	background-color: rgb(167,213,239);
+}
+
+.holidays-blue-part i{
+	font-size: 1.87vw;
+    color: rgb(51,122,183);
+    padding-top: 50%;
+}
+
+.holidays p{
+	padding-left: 9%;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    font-size: .85vw;
+    font-family: Quicksand;
+}
+
+.holidays p.secondline{
+	padding-left: 9%;
+	padding-top: 0px;
+	color: rgb(0,83,159);
+	font-size: 1vw;
+	font-family: Quicksand;
+	color: rgb(0,88,162);
+}
+
+.livelong{
+	width: 100%;
+    height: 16%;
+    background-color: white;
+    border-top:  #cccccc solid 1px;
+    border-bottom: #cccccc solid 3px;
+    border-left: none;
+    margin-top: -2px;
+ }
+
+.livelong-blue-part{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+    border-bottom: #cccccc solid 1px;
+	border-right: #cccccc solid 2px;
+    width: 6%;
+	height: 16%;
+	background-color: rgb(207,228,242);	
+}
+
+ i.fas.fa-calendar-alt{
+	font-size: .9vw;
+    color: #337ab7;
+    padding-top: 46%;
+}
+
+.livelong p{
+	padding-left: 9%;
+    padding-top: 8px;
+    padding-bottom: 4px;
+   font-size: .85vw;
+    font-family: Quicksand;	
+
+}
+
+.livelong p.secondline{
+    padding-left: 9%;
+	padding-top: 0px;
+	color: rgb(0,83,159);
+	font-size: 1vw;
+	font-family: Quicksand;
+}
+
+.Jan15{
+	width: 100%;
+    height: 27%;
+    background-color: white;
+    border-left: none;
+    border-bottom: #cccccc solid 3px;
+    margin-top: -2px;
+ }
+
+.jan15-blue-part{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	border-bottom: #cccccc solid 3px;
+    border-right: #cccccc solid 2px;
+    width: 6%;
+	height: 27%;
+	background-color: rgb(167,213,239);	
+}
+
+.Jan15 i.fas.fa-calendar-alt{
+	font-size: .9vw;
+    color: #337ab7;
+    padding-top: 46%;
+}
+
+.Jan15 p{
+	padding-left: 9%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+   font-size: .85vw;
+    font-family: Quicksand;
+}
+
+p.portfolio{
+    padding-left: 9%;
+	padding-top: 4px;
+	color: rgb(0,83,159);
+	font-size: 1vw;
+	font-family: Quicksand;	
+}
+.feb18{
+	width: 100%;
+    height: 23%;
+    background-color: white;
+    border-left: none;
+    border-bottom: #cccccc solid 3px;
+    margin-top: -2px;
+ }
+
+.feb18-blue-part{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	border-right: #cccccc solid 2px;
+    border-bottom: #cccccc solid 3px;
+    width: 6%;
+	height: 23%;
+	background-color: rgb(207,228,242);	
+}
+
+.feb18 i.fas.fa-calendar-alt{
+	font-size: .9vw;
+    color: #337ab7;
+    padding-top: 46%;
+}
+
+.feb18 p{
+	padding-left: 9%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+   font-size: .85vw;
+    font-family: Quicksand;
+}
+
+p.study{
+    padding-left: 9%;
+	padding-top: 4px;
+	color: rgb(0,83,159);
+	font-size: 1vw;
+	font-family: Quicksand;	
+}
+
+.feb29{
+	width: 100%;
+    height: 20%;
+    background-color: white;
+    border-left: none;
+    margin-top: -2px;
+ }
+
+.army-blue-part{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	border-right: #cccccc solid 2px;
+    width: 6%;
+	height: 20%;
+	background-color: rgb(167,213,239);	
+}
+
+.feb29 i.fas.fa-calendar-alt{
+	font-size: .9vw;
+    color: #337ab7;
+    padding-top: 46%;
+}
+
+.feb29 p{
+	padding-left: 9%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: .85vw;
+    font-family: Quicksand;	
+}
+
+p.army{
+    padding-left: 9%;
+	padding-top: 4px;
+	color: rgb(0,83,159);
+	font-size: 1vw;
+	font-family: Quicksand;	
+}
+
+.white-box{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+.bg-grey2{
+width: 100%;
+    height: 110vh;
+}
+  
+.white-control-box{
+	top: 55px;
+	display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 65%;
+    height: 77%;
+    
+ }
+
+ .mask{
+	position: absolute;
+    top: 7%;
+	font-weight: bold;
+	font-size: 1.5vw;
+	margin-left: 10px;
+    color: #333333;
+}
+
+.chase{
+	font-size: 1.2vw;
+	margin-left: 10px;
+	position: absolute;
+    top: 14%;
+    color: #434348;
+}
+
+.video-box{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    height: 66%;
+    top: 29%;;
+}
+
+.marketing-white-box{
+    position: absolute;
+    top: 40%;
+    width: 47%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#funny-img{
+	width: 100%;
+    height: 98%;
+}
+
+.marketing{
+	position: absolute;
+	font-size: 1vw;
+	color: black;
+    top: 14px;
+    left: 3%;
+}
+
+.video-box a.fas.fa-clock{
+    position: absolute;
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    top: 5%;
+    right: 20%;
+}
+
+.video-box a.fas.fa-share{
+ position: absolute;
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    top: 5%;
+    right: 10%;   
+}
+.link-box{
+	position: absolute;
+    display: inline-block;
+    height: 36%;
+    width: 31%;
+    right: 0;
+    top: 29%;
+}
+
+.read-story{
+	text-decoration: none;
+    display: flex;
+    justify-content: center;
+  
+    height: 30%;
+}
+
+.story{
+	width: 100%;
+    font-size: 1vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #00539f;
+}
+
+ .read-story i.fas.fa-angle-right {
+	position: absolute;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: white;
+    right: 15px;
+    top: 16px;
+ } 
+
+.second-link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 43%;
+    margin-top: 20px;
+}
+
+.anual{
+    padding-top: 18px;
+    width: 100%;
+    font-size: 1vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+    background-color: #00539f;
+}
+
+.second-link i.fas.fa-angle-right {
+	position: absolute;
+    font-weight: bolder;
+    right: 15px;
+    color: white;
+    font-size: 1.5vw;
+    top: 102px;
+}
+
+.pet-food{
+	text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    margin-top: 20px;
+}
+
+.pet{
+	width: 100%;
+    font-size: 1vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #00539f;
+}
+
+
+
+.pet-food i.fas.fa-angle-right {
+	position: absolute;
+    right: 15px;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    top: 108%;
+}
+
+#funny-school-pranks a.fas.fa-clock{
+	right: 19%;
+	top: 8px;
+    position: absolute;
+    text-decoration: none;
+    display: grid;
+    text-align: center;
+    color: black;
+}
+
+ #funny-school-pranks a.fas.fa-share{
+	left: 62%;
+	color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    display: grid;
+    text-align: center;
+}
+
+.second-blue-control-box{
+	width: 100%;
+	height: 770px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: end;
+}
+
+.bg-blue2{
+	height: 770px;
+    width: 100%;
+}
+
+	.seond-control-box{
+	width: 66%;
+    height: 92%;
+    top: 140px;
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.topline{
+	position: absolute;
+	font-weight: bold;
+	color: white;
+	left: 0px;
+    top: -22px;
+	font-family: sans-serif;
+}
+
+.read-more{
+	position: absolute;
+	font-weight: 500;
+	left: 2px;
+	color: rgb(51,122,188);
+	font-family: sans-serif;
+	bottom: 0%;
+	}
+
+.read-more:hover{
+    text-decoration: underline;
+}
+
+.standard-img{
+	width: 100%;
+    height: 75%;
+    margin-top: 0px;
+
+}
+.second-white-box{
+	position: absolute;
+	border: solid white 15px;
+	width: 66%;
+	height: 68%;
+	left: 0;
+	top: 40px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.puppies{
+margin-top: 1%;
+font-weight: bold;
+position: absolute;
+left: 0;	
+}
+
+.mariner{
+position: absolute;
+text-align: left;
+margin-top:5%;
+    font-size: 1.1vw;
+}
+
+
+
+.side-links{
+	position: absolute;
+	right: 0;
+	top: 40px;
+	height: 49%;
+    width: 26%;
+}
+
+.yellow-oval{
+	background-color: rgb(254,214,0);
+	display: flex;
+    justify-content: center;
+	width: 102%;
+    height: 14%;
+    right: 38px;
+    position: absolute;
+    border-radius: 32px;
+    }
+
+.todays-story{
+	font-size: 1.6vw;
+    margin-top: 6%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(31,71,107);
+}
+
+.links{
+	width: 100%;
+    height: 85%;
+    position: relative;
+    top: 54px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 35px;
+}
+
+.links a{
+	color: white;
+	text-decoration: none;
+}
+
+.links a:hover{
+text-decoration: underline;
+}
+.more-news{
+	border:solid white 1px;
+	width: 56%;
+    height: 15%;
+    top: 30px;
+    font-size: 1vw;
+    font-weight: bolder;
+    background-color: rgb(31,71,107);
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.more-news a{
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+    margin-top: 12%;
+}
+
+.more-news:hover{
+    background-color: unset;
+    border: unset;
+    
+}
+
+.more-news i{
+	color: white;
+	position: absolute;
+    top: 34%;
+    right: 14px;
+	font-size: 1.3vw;
+}
+
+
+.grey-box{
+	display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 135vh;
+    background-color: rgb(189,189,189);
+}
+
+.grey-control-box{
+	display: flex;
+	justify-content: center;
+    position: relative;
+	top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+    height: 99%;
+    }
+
+  .leaders{
+  	position: absolute;
+    top: 5%;
+  	font-size: 1.2vw;
+    font-weight: bold;
+     }
+
+  .main-text{
+  	position: absolute;
+  	font-size: 1.3vw;
+    color: rgb(67,67,67);
+    text-align: center;
+    margin-top:12%;
+  }
+
+  .image-control-box{
+    display: flex;
+;
+    position: absolute;
+  	width: 100%;
+  	height: 72%;
+    margin-top: 18%;
+  }
+
+  .left-box{
+	position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 25px;
+    width: 47%;
+    top: 5%;
+  }
+
+  .standard-img1{
+  	width: 100%;   
+  }
+
+.right-box{
+	display: inline-block;
+    position: relative;
+    top: 5%;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 47%;
+}
+
+  .standard-img2{
+  	width: 100%;
+     }
+
+  .homer-simpson{
+    color: rgb(51,144,186);
+    text-align: center;
+    font-size: 1.2vw;
+    margin-bottom: 10px;
+    margin-top: 7px;
+  }
+
+.homer-simpson:hover{
+    color: blue;
+}
+
+  .professor-of-nuclear{
+    color: rgb(51,144,186);
+  	margin-bottom: 10px;
+    font-size: .98vw;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .homer-simpson-text{
+    font-size: .87vw;
+  }
+
+   .lisa-simpson{
+   	 color: rgb(51,144,186);
+    text-align: center;
+    font-size: 1.2vw;
+    margin-bottom: 10px;
+    margin-top: 7px;
+  }
+
+.lisa-simpson:hover{
+    color: blue;
+}
+
+  .professor-of-science{
+    color: rgb(51,144,186);
+  	margin-bottom: 10px;
+    font-size: .98vw;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .lisa-simpson-text{
+  	font-size: .87vw;
+  }
+
+  .view-all-staff{
+    width: 18%;
+    height: 6%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    bottom: 7%;
+    left: 43%;
+    background-color: white;
+    border: solid rgb(0,83,159) 2px;
+  }
+
+  .view-all-staff a{
+  	text-decoration: none;
+  }
+
+  .view-all-staff:hover{
+    background-color: rgb(0,83,159);
+}
+
+.view-all-staff:hover .bottom-link{
+    color: white;
+  }
+
+.view-all-staff:hover .view-all-staff i.fa.fa-angle-right{
+    color: white;
+}
+
+  .bottom-link{
+   font-size: .98vw;
+    font-weight: bold;
+    margin-top: 5%;
+   margin-left: 5px;
+   color: rgb(0,83,159);
+  } 
+
+.view-all-staff i.fa.fa-angle-right{
+  	font-size: 1.5vw;
+    position: absolute;
+    bottom: 15%;
+    right: 5px;
+    color: rgb(0,83,159);
+  }
+
+  .school-today-box{
+  	background-color: rgb(0,57,118);
+  	width: 100%;
+  	height: 50vh;
+  	position: relative;
+  }
+.school-today-img{
+	position: absolute;
+    left: 20%;
+    width: 28%;
+    height: 65%;
+    top: 50px;
+  }
+
+
+.campaign{
+position: absolute;
+    width: 18%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    background: white;
+    top: 20%;
+    right: 20%;
+    font-size: 1.1vw;
+    }
+
+.campaign a{
+	text-decoration: none;
+}
+
+
+.campaign-website {
+	margin-top: 17px;
+    font-weight: bold;
+    color: blue;
+}
+
+.campaign i.fas.fa-tv{
+	position: absolute;
+    left: 18px;
+    top: 18px;
+    color: blue;
+}
+
+.campaign i.fa.fa-angle-right {
+	position: absolute;
+    top: 18px;
+    right: 26px;
+    font-size: 1.3vw;
+    color: blue;
+}
+
+.thank-you{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 18%;
+    height: 23%;
+    background: white;
+    top: 44%;
+    right: 20%;
+    font-size: 1.1vw;
+}
+
+.thank-you a{
+	text-decoration: none;
+}
+
+.donors{
+	margin-top: 17px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 20px;
+}
+
+.thank-you i.fa.fa-newspaper-o{
+	position: absolute;
+    top: 17px;
+    left: 16px;
+    font-size: 1.5vw;
+    color: blue;	
+}
+
+.thank-you i.fa.fa-angle-right {
+	position: absolute;
+    right: 46px;
+    top: 54%;
+    font-size: 1.4vw;
+    color: blue;
+}
+
+.last-box{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 86px;
+    width: 100%;
+    height: 540px;
+    border-top: solid 2px rgb(254,214,0);
+
+    border-spacing: 10px;
+}
+
+.logo3{
+position: absolute;
+    width: 10%;
+    border-radius: 51%;
+    margin-top: -32px;
+    left: 6%;
+    z-index: 1;
+}
+
+.top-btn {
+    width: 4%;
+    height: 7%;
+    background-color: black;
+    opacity: 61%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    top: -40px;
+    color: white;
+    padding-top: 10px;
+}
+
+.top-btn i{
+   position: absolute;
+   top: 3px;
+}
+
+.top-btn .top-p {
+    position: absolute;
+   top: 17px;
+}
+
+.threeimg-box{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35%
+}
+
+.img1{
+	position: relative;
+    width: 35%;
+    height: 100%;
+}
+.last-box-img1{
+	
+    width: 96%;
+    height: 100%;
+}
+
+.explore-photos{
+	position: absolute;
+	bottom: 0%;
+    background-color: black;
+    opacity: 60%;
+    color: white;
+    width: 96%;
+    height: 15%;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 0.7vw;
+}
+
+.img2{
+	position: relative;
+    width: 35%;
+    height: 100%;
+}
+
+.last-box-img2{
+	 width: 96%;
+    height: 100%;
+    
+}
+
+.dinner{
+	position: absolute;
+	bottom: 0%;
+    background-color: black;
+    opacity: 60%;
+    color: white;
+    width: 96%;
+    height: 15%;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 0.7vw;
+}
+
+.img3{
+	position: relative;
+    width: 35%;
+    height: 100%;
+}
+
+.last-box-img3{
+	 width: 96%;
+    height: 100%;
+    
+}
+
+.drugs{
+	position: absolute;
+	bottom: 0%;
+    background-color: black;
+    opacity: 60%;
+    color: white;
+    width: 96%;
+    height: 15%;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 0.7vw;
+}
+
+.home{
+	position: absolute;
+	top: 41%;
+    left: 0;
+    width: 7%;
+    height: 3%
+}
+
+.st{
+	position: absolute;
+	top: 36%;
+    left: 33%;
+    font-size: .75vw;
+}
+
+.home i.fas.fa-home{
+	position: absolute;
+	font-size: 1.3vw;
+    color: rgb(0,158,225);
+    }
+
+.greyline{
+	border-top: solid 1px grey;
+	width: 80%;
+    margin-top: 30px;
+    height: 0; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.all{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
+    height: 88vh;
+}
+
+.bottom-nav{
+   position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    border-top: lightgrey 2px solid;
+    border-bottom: lightgrey 2px solid;
+    height: 225px;
+}
+
+.explore-border{
+display: inline-block;
+width: 14%;   
+}
+
+.academics-border{
+    display: inline-block;
+    width: 21%;
+}
+
+.services-border{
+    display: inline-block;
+    width: 17%;
+}
+
+.connect-border{
+    display: inline-block;
+    width: 27%;
+}
+.explore,.academics,.connect,.services{
+   line-height: 5vh;
+   
+    font-size: 1.5vw
+}
+
+.explore-menu,.academics-menu,.services-menu,.connect-menu{
+    font-size: 1vw;
+}
+
+.explore-menu a,.academics-menu a,.services-menu a,.connect-menu a
+{
+    text-decoration: none;
+    color: rgb(124,151,192);
+}
+
+.explore-menu a:hover, .academics-menu a:hover ,.services-menu a:hover,.connect-menu a:hover{
+    text-decoration: underline;
+}
+
+
+.connect-menu a{
+    margin-right: 5%;
+}
+.zipcode{
+   display: flex;
+    width: 37%;
+}
+
+.zipcode .fas.fa-map-marker-alt{
+    padding-left: 5px;
+}
+
+.connect-menu a{
+    color: #009ee1;
+}
+
+footer nav{
+    font-size: 0.6em;
+    text-align: center;
+    bottom: 25px;
+    position: relative;
+}
+footer nav li{
+    display: inline-block;
+    padding-right: .5%;
+}
+
+footer nav li a{
+color: rgb(47,111,167);
+}
+
+@media only screen and (max-width:1025px){
+img.logo{
+	margin-left: 5%;
+}
+
+
+#top-navigator ul{
+	position: absolute;
+    right: -8%;
+}
+
+.fas.fa-bars{
+	position: absolute;
+    display: flex; 
+    color: white;
+    z-index: 10;
+    top: -83px;
+    right: 3%;
+    font-size: 4vw;
+    text-decoration: none;
+}
+
+.top-yellow-box{
+    width: 12%;
+    position: absolute;
+    padding-top: 8px;
+    height: 31px;
+    top: -31px;
+    right: 3%;
+    font-size: 1.2vw;
+    padding-left: 10px;
+    background-color: #fed600;
+    text-align: left;    
+}
+
+.overlay{
+    position: fixed;
+    display: block;
+   background-color: lightgrey;
+    opacity: 100%;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    transition: width 2s;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#videohero{
+
+    position: relative;
+    transition-duration: 2s;
+    width: 100%;
+}
+.fas.fa-plus{
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    margin-top: 9px;
+    color: rgb(0,147,186);
+}
+
+ul.navbar li a.about-us, ul.navbar li a.prospective-students, ul.navbar li a.current-students{
+    display: none;
+}
+
+ul.navbar li a {
+    position: unset;
+    display: inline-block;
+    color: rgb(0,147,186);
+    font-weight: bolder;
+    height: 48.2px;
+    width: 75%;
+    padding-top: 10px;
+    font-size: 0.9em;
+    margin-top: 0;
+    margin-left: 30px;
+    border-bottom: lightgray solid 1px;
+  }
+
+ul.navbar {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    background-color: white;
+    height: 240px;
+    margin-top: 0;
+    }
+
+
+
+.fas.fa-bars:focus ~ .overlay{
+      width: 33%;
+}
+
+
+.fas.fa-bars:focus ~ #videohero{
+    transform: translateX(33%);
+}
+
+.fas.fa-bars:focus ~ .videohero-text{
+    transform: translateX(33%);
+}
+
+.videohero-text {
+	bottom: 172px;
+    width: 16%;
+}
+
+.blue-control-box{
+    text-align: center;
+}
+
+
+.control-box{
+	height: 87%;
+    width: 97%;
+    margin-left: unset;
+    margin-right: unset
+}
+
+p.hotdog{
+    font-size: 3vw;
+    padding-left: 0px; 
+}
+
+.video-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+   height: 87%;  
+}
+
+#back-to-school{
+ margin-top: 87px;
+ width: 66%;
+    height: 64.5%;
+}
+
+.todays-story {
+    font-size: 1.5vw;
+    margin-top: 3px;
+}
+
+.visit-box{
+	height: 5%;
+    right: 25%;
+    top: 40%;
+    width: 6%
+}
+
+.apply-today, .schedule-a-visit, .building-finder {
+    width: 20%;
+    height: 43px;
+    padding-top: 1.5%;
+}
+
+.standard-image {
+    display: inline-block;
+    position: absolute;
+    width: 31%;
+    height: 33%;
+    margin-top: 86px;
+    right: 0px;
+}
+
+a.school-text{
+    width: 31%;
+    height: 12%;
+    top: 45%;
+    right: 0px
+}
+
+p.december {
+   font-size: 1.3vw;
+   margin-bottom: 2px;
+}
+
+p.school-galleries {
+    font-size: 2.5vw;
+    }
+
+a.newsroom {
+    bottom: 217px;
+    width: 31%;
+}
+
+p.news {
+    font-size: 2vw;
+}
+.white-control-box{
+	width: 95%;
+    height: 88%;
+    top: 65px;
+}
+
+.video-box {
+    width: 72%;
+    height: 66%;
+}
+
+#funny-school-pranks {
+    width: 100%;
+    height: 92%;
+}
+
+#funny-video {
+    width: 100%;
+    height: 100%;
+}
+
+.marketing {
+    font-size: 2vw;
+    }
+
+.video-wrapper a.fas.fa-clock {
+       right: 43%;
+    }
+
+.video-wrapper a.fas.fa-share{
+   right: 36%;
+}
+
+.link-box{
+	width: 23%;
+}
+.story {
+	font-size: 1.5vw;
+}
+
+.read-story i.fas.fa-angle-right{
+	font-size: 1.7vw;
+	right:     font-size: 1.7vw;
+    right: 10px;
+    top: 19px;
+   }
+
+
+.second-link i.fas.fa-angle-right {
+    top: 39%;
+}
+
+.pet{
+	font-size: 1.5vw;
+}
+
+.pet-food i.fas.fa-angle-right{
+	font-size: 1.7vw;
+    top: 194px;
+    right: 10px;
+}
+
+.yellow-control-box {
+top: 50px;
+    width: 90%;
+    height: 86%;
+}
+
+.event-box {
+    height: 66%;
+}
+
+.yellow-box-standard-image {
+    height: 92%
+}
+
+.Summer-session-text {
+    height: 33%;
+}
+
+.july1 {
+    font-size: 1.2vw;
+}
+
+.realwork {
+    font-size: 1.3vw;
+}
+
+.Summer-session-text p.schedule {
+    font-size: 1.2vw;
+    }
+
+.yellow-oval{
+	padding-top: 8px;
+    height: 40px;
+}
+
+.calender {
+    height: 79%;
+}
+
+.holidays,.holidays-blue-part {
+    height: 17%;
+}
+
+.livelong,.livelong-blue-part{
+    height: 16%;
+}
+
+.Jan15,.jan15-blue-part {
+    height: 25%;
+}
+
+.feb18,.feb18-blue-part{
+    height: 22%;
+}
+
+.feb29,.army-blue-part{
+    height: 23%;
+}
+
+.mask {
+    font-size: 2.5vw;
+    font-weight: bold;
+    top: 0;
+}
+
+.chase {
+    font-size: 2.45vw;
+    top: 8%;
+}
+
+.anual{
+    padding-top: 12px;
+    font-size: 1.5vw;
+    right: 5px;
+}
+
+.second-blue-control-box {
+    height: 662px;
+}
+
+.bg-blue2 {
+    height: 126vh;
+    }
+
+.seond-control-box {
+    width: 90%;
+    top: 95px;
+    height: 70%
+    }
+
+.second-white-box {
+    height: 93%;
+}
+
+.standard-img {
+    height: 74%
+}
+
+.more-news{
+   font-size: 1.5vw;
+    justify-content: flex-start;
+    right: 0;
+    height: 14%;
+    width: 62%;
+    top: 30%;
+}   
+
+.more-news a {
+   margin-top: 8px;
+}
+
+.more-news i {
+    top: 10px;
+}
+
+.mariner {
+    margin-top: 7%;
+    font-size: 1.3vw;
+}
+
+
+.read-more{
+    font-size: 1.3vw;
+    line-height: 5px;
+}
+.grey-box {
+    margin-top: 0;
+    height: 170vh;
+}
+
+.image-control-box{
+    width: 100%;
+    height: 74%;
+    margin-top: 21%;
+}
+
+.grey-control-box {
+    width: 90%;
+    height: 100%;
+    }
+
+.bottom-link{
+     margin-top: 7px;
+     font-size: 1.5vw;
+     }
+
+.leaders {
+    font-size: 2.5vw;
+    margin-top: 2%;    
+}
+
+.main-text {
+    font-size: 2.2vw;
+    margin-top: 12%;
+}
+
+.view-all-staff i.fa.fa-angle-right {
+    bottom: 20%;
+}
+
+.left-box{
+	margin-right: 0px;
+    margin-left: 0;
+    width: 50%;
+  }
+
+ .right-box{
+	margin-left: -3px;
+    width: 50%;
+}
+
+.homer-simpson{
+    font-size: 1.5vw;
+}
+
+.professor-of-nuclear{
+    font-size: 1.65vw;
+}
+
+.homer-simpson-text{
+      font-size: 1.6vw;
+      margin-right: 10%;  
+}
+
+.lisa-simpson {
+  font-size: 1.5vw;  
+}
+
+.professor-of-science{
+    font-size: 1.65vw;
+}
+
+.lisa-simpson-text{
+    font-size: 1.6vw; 
+    margin-right: 10px;
+}
+
+.view-all-staff{
+    display: flex;
+    justify-content: flex-start;
+    bottom: 13%;
+    width: 16%;
+    height: 5%;
+}
+
+.campaign {
+    width: 22%;
+    font-size: 1.4vw;
+    right: 2%
+}
+
+.campaign i.fas.fa-tv {
+    left: 9px;
+    top: 18px;
+}
+
+.campaign i.fa.fa-angle-right {
+    top: 23px;
+    right: 12px;
+    }
+
+.school-today-img {
+    left: 2%;
+    width: 40%;
+}
+
+.thank-you {
+    width: 22%;
+    right: 2%;
+}
+
+.thank-you i.fa.fa-newspaper-o {
+    left: 31px;
+    font-size: 1.7vw;
+    top: 19px;
+}
+
+.donors {
+    margin-left: 14%;
+    font-size: 1.5vw;
+    margin-right: 16%;
+    margin-top: 18px;
+    }
+
+.thank-you i.fa.fa-angle-right{
+right: 18px;
+top: 36px;	
+}
+
+
+
+.fas.fa-angle-up{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+}
+
+.top-p{
+top: 14px;
+position: absolute;
+}
+
+.top-btn {
+    width: 5%;
+}
+
+.logo3{
+    left: 44%;
+    margin-top: -20px;
+}
+
+.threeimg-box{
+width: 100%;
+height: 32%;	
+}
+
+.img1 {
+  width: 40%;
+}
+
+.img2 {
+  width: 40%;
+}
+
+.img3 {
+  width: 40%;
+}
+
+.home{
+top: 39%;
+left: 0.5%	
+}
+
+.explore-menu,.academics-menu,.services-menu,.connect-menu{
+    font-size: 1.9vw;
+}
+
+.explore-menu, .academics-menu, .services-menu, .connect-menu{
+    font-size: 1.4vw;
+}
+
+.connect-border{
+width: 26%;
+}
+
+}
+
+@media only screen and (max-width:767px){
+
+
+img.logo{
+	margin-left: 5%;
+    height: 73%;
+    margin-top: 9px;
+}
+
+
+header .fas.fa-bars {
+    top: 9px;
+    right: 5%;
+    font-size: 8vw;
+}
+
+.videohero-frame .fas.fa-bars {
+    font-size: 8vw;
+    top: -81px;
+    right: 5%;
+}
+
+#videohero, .overlay, .videohero-text {
+	display: none;
+}
+
+
+.heroimg{
+    display: block;
+    position: relative;
+    transition-duration: 2s;
+    width: 100%;
+}
+
+.videohero-text{
+	display: inline-block;
+}
+
+.videohero-text p{
+	font-size: 8.5vw;
+    position: relative;
+    top: 84px;
+}
+
+.overlay{
+    display: block;
+    position: fixed;
+    top: 0px;
+    
+    width: 0;
+    height: 100vh;
+
+    transition: width 2s ease;
+    
+    overflow: hidden;
+    z-index: 1;
+}
+
+ul.navbar {
+padding-top: 125px;
+height: 510px;
+}
+
+ul li#top-navigator{
+    width: 30%;
+}
+ul.navbar li a.about-us, ul.navbar li a.prospective-students, ul.navbar li a.current-students{
+   display: inline-block; 
+}
+ul.navbar li a {
+    margin-left: 15px;
+    
+}
+
+#top-navigator {
+    top: -92px;
+}
+
+#top-navigator ul {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    transition: width 2s ease;
+    overflow: hidden;
+    left: 0;
+    width: 0;
+    background-color: rgb(102,102,102);
+    z-index: 10;
+    height: 67px;
+    padding-top: 3px;
+}
+
+
+#top-navigator li a {
+    font-size: 1.8vw;
+    position: relative;
+    left: 10px;
+    margin-right: -50px;
+    padding-right: 80px;
+}
+
+#top-navigator li a.fa.fa-search{
+    font-size: 2.5vw;
+}
+.top-yellow-box{
+    display: block;
+    width: 0;
+    left: 0;
+    background-color: blue;
+    height: 12%;
+    text-align: left;
+    margin-top: 6px;
+    padding-top: 12px;
+    padding-left: 0;
+    z-index: 10;
+    font-size: 2.5vw;
+    font-weight: bold;
+    transition: width 2s ease;
+}
+
+.top-yellow-box a {
+    color: white;
+}
+
+.quick-links{
+    font-size: 2.2vw;
+}
+
+a.fas.fa-chevron-down {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+.fas.fa-bars:focus ~ .heroimg{
+    transform: translateX(45%);
+}
+.fas.fa-bars:focus ~ .overlay{
+    width: 45%;
+}
+.fas.fa-bars:focus ~ .top-yellow-box{
+    width: 45%;
+}
+
+.fas.fa-bars:focus ~ #top-navigator ul {
+    width: 45%;
+}
+
+.videohero-text {
+    bottom: 172px;
+    width: 35%;
+}
+
+.chocolate{
+	font-size: 4.2vw;
+}
+
+.first-paragraph {
+    height: 800px;
+}
+
+.first-p{
+	font-size: 4vw;
+}
+
+
+#middle-links{
+    width: 90%;
+    height: 42%;	
+}
+
+#middle-links ul {
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+    height: 72px;
+    padding-top: 18px;
+    margin-left: 0;
+}
+
+#middle-links ul li a  {
+    font-size: 3vw;
+}
+
+.apply-today, .schedule-a-visit, .building-finder{
+    margin-top: 5%;
+    width: 100%;
+    height: 58px;
+    margin-left: 0;
+    padding-top: 15px;
+} 
+
+#middle-links li a{
+	padding-top: 0;
+    color: white;
+}
+
+#middle-links.fa.fa-check-square-o{
+    font-size: unset;
+}
+#middle-links li a {
+    font-size: 2.8vw;
+}
+
+
+
+.fas.fa-plus {
+    right: 9%;
+   }
+
+.blue-control-box{
+    text-align: left;
+}
+
+.bg-blue{
+height: 190vh;
+width: 100%;
+}
+
+.control-box{
+    height: 94%;
+    width: 95%;
+    margin-left: unset;
+    margin-right: unset;
+    top: 2.5%;
+}
+
+p.hotdog{
+    font-size: 4.5vw;
+    padding-left: 0px; 
+}
+
+.video-wrapper{
+  position: absolute;
+  width: 100%;
+  height: 37%;
+  margin-top: 8%;  
+}
+
+#back-to-school{
+ width: 100%;
+ height: 87%;
+ margin-top: 11%;   
+}
+
+.video-wrapper a.fas.fa-share {
+    right: 10%;
+    top: 78px;
+}
+
+.video-wrapper a.fas.fa-clock {
+    right: 20%;
+    top: 78px;
+}
+
+.marketing-bluebox {
+    top: 78px;
+    left: 7%;
+}
+.uniform-img {
+    position: relative;
+    display: block;
+    top: 38%;
+    width: 100%;
+    height: 50%;
+}
+
+.standard-image {
+    position: relative;
+    width: 100%;
+    height: 76%;
+    }
+
+.todays-story {
+    font-size: 1.5vw;
+    margin-top: 3px;
+}
+
+.visit-box{
+    height: 9%;
+    width: 10.5%;
+    left: 0%;
+    top: 85%;
+}
+
+a.school-text {
+    justify-content: space-between;
+    width: 100%;
+    height:  17%;
+    top: 91.5%;
+}
+
+p.december {
+ font-size: 2vw;
+}
+
+p.school-galleries {
+    font-size: 3.2vw;
+    padding-top: 8px;
+    }
+
+.school-text i {
+    margin-right: 10px;
+}
+
+.newsroom i {
+    margin-top: -4px;
+}
+
+p.news{
+    margin-top: -4px;
+    font-size: 2.8vw;
+}
+
+a.newsroom {
+    position: absolute;
+    bottom: -22.5%;
+    width: 100%;
+}
+
+.upcoming-event {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-yellow {
+    height: 220vh;
+    width: 100%;
+}
+
+.yellow-control-box {
+    position: absolute;
+    top: 34px;
+    width: 94%;
+    height: 65%;
+}
+
+.event-box {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 71%;
+}
+
+.yellow-box-standard-image {
+    border-width: 12px;
+    top: 51px;
+    width: 100%;
+    height: 84%;
+}
+
+.Summer-session-text {
+    height: 26%;
+    width: 100%;
+}
+
+.july1 {
+    font-size: 2.5vw;
+    }
+
+.realwork {
+    font-size: 2.5vw;
+}
+
+.Summer-session-text p.schedule {
+    font-size: 2.5vw;
+   }
+
+.calender {
+    position: absolute;
+   width: 100%;
+    display: inline;
+    height: 52%;
+    top: 86%;
+}
+
+i.fas.fa-calendar-alt {
+    font-size: 2.5vw;
+}
+
+.holidays p {
+    font-size: 2.2vw;
+}
+
+.holidays p.secondline {
+    font-size: 2.35vw;
+}
+
+.livelong p {
+    font-size: 2.2vw;
+}
+
+.livelong p.secondline {
+   font-size: 2.35vw;
+}
+
+.Jan15 p {
+    font-size: 2.2vw;
+}
+
+.Jan15 i.fas.fa-calendar-alt {
+    font-size: 2.25vw;
+    }
+
+.feb18 i.fas.fa-calendar-alt {
+    font-size: 2.25vw;
+}
+
+.feb18 p {
+    font-size: 2.2vw;
+}
+
+.feb29 i.fas.fa-calendar-alt {
+    font-size: 2.25vw;
+}
+
+.feb29 p {
+   font-size: 2.2vw;
+}
+
+.bg-grey2{
+ height: 170vh;   
+}
+.white-control-box {
+  top: 0px;  
+  height: 81%;
+  width: 95%;
+}
+
+.mask {
+  font-size: 4.5vw;
+  top: 5%;
+}
+
+.chase {
+    font-size: 4vw;
+    top: 16%;
+}
+
+.video-box {
+    width: 100%;
+    height: 44%;
+}
+
+#funny-video {
+    height: 95%;
+}
+
+.marketing {
+   font-size: 2.5vw;
+   font-weight: bolder;
+   top: 15px;
+   left: 7%;
+}
+
+.link-box {
+    width: 100%;
+    top: 74%;
+    }
+
+.read-story{
+    height: 23%;
+}
+
+.story {
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding-top: 22px;
+}
+
+.read-story i.fas.fa-angle-right {
+    font-size: 3vw;
+    top:23px;
+    right: 35%;
+}
+
+.second-link{
+    height: 23%;
+}
+
+.anual {
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding-top: 22px;
+}
+
+.second-link i.fas.fa-angle-right  {
+    font-size: 3vw;
+    right: 10%;
+}
+
+.pet-food {
+height: 23%;
+}
+
+.pet{
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding-top: 23px;
+}
+
+.pet-food i.fas.fa-angle-right {
+     font-size: 3vw;
+     right: 36%;
+     top: 70%;
+}
+
+.seond-control-box {
+    top: 30px;
+    height: 52%;
+    width: 95%;
+}
+
+.second-white-box {
+width: 100%;
+height: 95%;
+top: 70px;
+}
+
+.topline {
+    top: 11px;
+    font-size: 1.1em;
+}
+
+.standard-img {
+    height: 76%;
+    }
+
+.yellow-oval {
+    padding-top: 3px;
+    top: 41px;
+}
+
+.links {
+    top: 110px;
+}
+
+.second-blue-control-box {
+    height: 1070px;
+        }
+
+    .bg-blue2 {
+    height: 1070px;
+}
+
+.puppies {
+    font-size: 2.5vw;
+}
+
+.mariner {
+      font-size: 2.55vw;
+      margin-top: 6.5%;
+}
+
+.read-more {
+    font-size: 2vw;
+    line-height: 1px;
+    bottom: 0;
+}
+
+.side-links {
+    position: absolute;
+    left: 9%;
+    height: 49%;
+    width: 43%;
+    top: 106%;
+}
+
+.yellow-oval {
+    height: 20%;
+    padding-top: 7px;
+}
+
+.todays-story {
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: rgb(0,83,159);
+}
+
+.links {
+    left: 0px;
+    top: 105px;
+}
+
+.more-news{
+    font-size: 2.5vw;
+
+    padding-top: 0px;
+    left: 68%;
+    top: 25%;
+}
+
+.more-news i {
+    
+    font-size: 3.3vw;
+}
+
+.grey-box {
+   height: 310vh;
+}
+
+.grey-control-box {
+    width: 90%;
+    height: 95%;
+  
+}
+
+.leaders {
+    font-size: 3.5vw;
+    top: -2%;
+    left: 3%;
+    }
+
+    .main-text {
+    margin-top: 45px;
+    font-size: 3.8vw;
+}
+
+.image-control-box {
+    display: block;
+  margin-top: 29%;
+  height: 85%;
+}
+
+.left-box {
+    top: 4%;
+    height: 45%;
+    width: 100%;
+}
+
+
+.homer-simpson {
+    font-size: 4.1vw;
+    margin-top: 20px;
+    }
+
+   .professor-of-nuclear {
+   
+    font-size: 3vw;
+    margin-top: 10px;
+   
+} 
+
+.homer-simpson-text {
+    font-size: 3vw;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.right-box {
+    margin-top: 0;
+    top: 5%;
+    width: 100%;
+}
+
+.lisa-simpson {
+font-size: 4.1vw;
+    margin-top: 20px;
+    }
+
+.professor-of-science {
+font-size: 2.172vw;
+    margin-top: 15px;
+   
+} 
+
+.lisa-simpson-text {
+font-size: 2.3vw;
+    margin-top: 15px;
+}
+
+.view-all-staff {
+width: 28%;
+height: 42px;
+bottom: 6px;
+    left: 37%;
+}
+
+.bottom-link {
+font-size: 2.3vw;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.view-all-staff i.fa.fa-angle-right {
+font-size: 2.7vw;
+    top: 8px;
+    color: blue;
+}
+
+.school-today-box{
+    height: 117vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.school-today-img {
+   height: 43%;
+    width: 90%;
+    left: unset;
+}
+
+.campaign {
+    width: 96%;
+    height: 10%;
+    right: unset;
+    top: 60%;
+    }
+
+.campaign a {
+   font-size: 3vw;    
+}
+
+.campaign i.fas.fa-tv {
+   left: 29%;
+   top: 25px;
+   color: rgb(0,57,118);
+}
+
+.campaign-website {
+    margin-top: 21px;
+    color: rgb(0,57,118);
+    }
+
+.campaign i.fa.fa-angle-right {
+    top: 22px;
+    right: 32%;
+    font-size: 3.5vw;
+    color: rgb(0,57,118);
+}
+
+.thank-you a {
+    font-size: 3vw;
+}
+
+.thank-you {
+    width: 96%;
+    height: 10%;
+    top: 74%;
+    right: unset;
+}
+
+.donors {
+    margin-top: 19px;
+    color: rgb(0,57,118);
+    font-size: 2.9vw;
+    margin-right: 0;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.thank-you i.fa.fa-newspaper-o {
+   margin-top: 2px;
+    font-size: 3vw;
+    left: 20%;
+    color: rgb(0,57,118);
+}
+
+.thank-you i.fa.fa-angle-right {
+    right: 22%;
+    top: 23px;
+    font-size: 3vw;
+    color: rgb(0,57,118);
+}
+
+.last-box {
+   margin-top: 42px;
+}
+
+.top-btn {
+  width: 7.5%;
+  height: 5.5%;
+  top: -46px;
+}
+
+.last-box {
+  border-top: solid 3px yellow;
+  height: 815px;
+}
+
+.threeimg-box{
+    display: none;
+}
+
+.home {
+    top: 10%;
+    width: 20%;
+    height: 0%; 
+}
+
+.home i.fas.fa-home {
+    font-size: 3.3vw;
+    }
+
+    .st {
+    top: 36%;
+    left: 33%;
+    font-size: 2.3vw;
+}
+
+.bottom-nav{
+    width: 90%;
+}
+
+.explore-border,.academics-border,.services-border{connect-border
+    width: 22.5%;
+}
+
+.explore{
+width: 40%;
+}
+
+.academics{
+    width: 68%;
+}
+
+.services{
+    width: 69%;
+}
+
+.connect{width: 99%;}
+footer nav {
+   text-align: left;
+   padding-left: 10px;
+}
+
+.all{
+    width: 100%;
+}
+
+.home {
+    left:5%;
+    width: 20%;
+ }
+
+.home-border{
+    width: 93%;
+    height: 17%;
+    border-bottom: solid lightgrey 2px;  
+}
+
+.bottom-nav {
+    width: 100%;
+    display: block;
+    top: 21%;
+    border-top: none;
+    border-bottom:none;
+}
+
+.explore {
+    width: 14%;
+}
+
+.explore-border,.academics-border,.services-border,.connect-border{
+    width: 100%;
+    
+    margin-left: 0;
+}
+.explore, .academics, .connect, .services {
+    font-size: 3.5vw;
+    margin-bottom: 2%;
+    margin-left: 32px;
+}
+.explore-menu, .academics-menu, .services-menu, .connect-menu {
+    font-size: 2.2vw;
+}
+
+.academics {
+    width: 32%;
+}
+
+.services {
+    width: 22%;
+}
+
+.connect {
+    width: 49%;
+}
+
+
+
+
+}

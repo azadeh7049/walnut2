@@ -1,0 +1,355 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif, 'Noto Serif', serif; 
+
+}
+body{
+	 display: grid;
+	grid-template: auto/100%; 
+	box-sizing: border-box;
+}
+
+header{
+position: relative;
+background-color: rgb(51,203,152);
+height: 87px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+}
+
+.logo{
+	width: 120px;
+    height: 60px;
+	}
+
+.overlay{
+	display: none;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	flex-wrap: wrap;
+	align-content: center;
+		}
+
+nav ul{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: center;
+    font-weight: bold;
+    list-style: none;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-right: 47px;
+	}
+
+nav li a.contact{
+	margin-right: 95px;
+}
+
+nav li{
+display: inline-block;
+}
+
+.mb-img{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background: url(bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+img.bg{
+	position: relative;
+	width: 100%;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	}
+
+p.welcome{
+	position: absolute;
+	top: 29%;
+    font-size: 330%;
+    font-weight: 800;
+	color: white;
+	text-align: center;
+	text-shadow: 3px 3px rgb(159,159,159);
+}
+
+p.learn{
+	position: absolute;
+	text-align: center;
+	top: 48%;
+    font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px rgb(159,159,159);
+}
+
+
+.see-results{
+	position: absolute;
+	color: red;
+	top:70%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 800;
+}
+
+.repeating-photos{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1440px;
+	text-align: center;
+	
+}
+
+figure img{
+	display: block;
+	width: 100%;
+    transition: .5s ease;
+	}
+
+figure:hover img{
+	transform: scale(1.1,1.1);
+}
+
+.container{
+	position: relative;
+	display: inline-block;
+	margin: 10px; 
+	width: 28%;
+    overflow: hidden;
+}
+
+.ads{
+	position: absolute;
+	width: 100%;
+    height: 50%;
+    bottom: 0px;
+   
+  	overflow: hidden;
+  	text-align: left;
+  	box-sizing: border-box;
+	background: linear-gradient(0deg, rgb(55,55,55) , transparent 100%);
+}
+
+ a.burrito{
+position: absolute;
+bottom: 43px;
+left: 10px;
+color: white;
+font-size: 18px;
+}
+
+
+
+p.toronto{
+	position: absolute;
+    bottom: 14px;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+a:hover{
+	color: yellow;
+}
+footer{
+	width: 100%;
+    height: 190px;
+    background-color: rgba(85, 0, 254, 1);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    color: white;
+}
+
+footer p{
+	font-size: 15px;
+}
+@media only screen and (max-width:800px){
+
+.logo{
+	z-index: 10;
+}
+
+nav{
+	display: block;
+	position: fixed;
+	top: 52px;
+	background-color: rgb(51,203,152);
+	width: 0px;
+	height: 100vh;
+	transition: width 2s ease;
+	transition-timing-function: step(2s,5s);
+	overflow: hidden;
+	z-index: 2;
+}
+
+.logo:hover ~ nav,nav:hover{
+width: 50%;	
+}
+
+nav ul{
+	display: block;
+}
+   
+nav li{
+	padding-left: 20px;
+}
+
+nav li a{
+	display: flex;
+	margin-top: 80px;
+    width: 200px;
+}
+	
+nav li a.contact{
+	margin-right: 44px;
+}	
+
+.overlay{
+	display: block;
+	position:fixed;
+	z-index: 1;
+	background-color: black;
+	opacity: 0%;
+	width: 100vw;
+	height: 0;
+	top: 87px;
+    transition: opacity 0.5s ease;
+		}
+.logo:hover ~ .overlay,
+ nav:hover ~ .overlay{
+	
+	opacity: 50%;
+	height: 100vh;
+	
+}
+
+p.welcome{
+	top: 30%;
+    font-size: 291%;
+}
+
+p.learn{
+	top: 53%;
+    font-size: 183%;
+}
+
+.repeating-photos{
+   margin-top: 30px;
+}
+
+figure img{
+   display: inline-block;
+   position: relative;
+   margin-bottom: 145px;
+}
+ .ads {
+ 	background: unset;
+ 	position: absolute;
+    width: 89%;
+    background-color: rgb(204, 204, 204);
+    font-size: 138%;
+    bottom: 4px;
+}
+.container{
+	display: inline-block;
+	width: 40%;
+}
+
+a.burrito{
+	font-size: 68%;
+    font-weight: bold;
+    top: 20px;
+    color: rgba(44, 52, 54, 1);
+}
+
+p.toronto{
+top: 40px;
+color: rgba(44, 52, 54, 1);
+}
+
+@media only screen and (max-width:600px){
+	
+	nav li a{
+		font-size: 110%;
+		padding-left: 10px;
+	}
+
+.logo:hover ~ nav,
+nav:hover{
+	
+	width: 100%;	
+}
+
+img.bg{
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	}
+
+p.welcome{
+	font-size: 253%;
+	text-align: center;
+    top: 133px;
+    }
+
+p.learn{
+	top: 48%;
+    font-size: 210%;
+    }
+
+.repeating-photos {
+    margin-left: 3px;
+    margin-right: 21px;
+}
+
+.container {
+    width: 99%;
+}
+
+figure{
+	width: 100%;
+}
+
+.ads{
+	width: 92%;
+}
+	p.toronto,a.burrito {
+		font-size: 130%;
+	}
+	
+
+.see-results {
+    position: absolute;
+    color: red;
+     top: 78%;
+    text-align: center;
+}
+
+	footer{
+	height:214px;
+    background-color: rgba(85, 0, 254, 1);
+ 		}
+		
+}
