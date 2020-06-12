@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: 'Quicksand','Montserrat','Arial', sans-serif, serif; 
+
+}
+body{
+     display: grid;
+    grid-template: auto/100%; 
+    box-sizing: border-box;
+}
+
+h3{
+	position: relative;
+    display: flex;
+    width: 70%;
+    height: 20vh;
+    border: solid 1px #f6f890;
+    top: 25%;
+    padding-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+}
+
+.bottomnav{
+	position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 61%;
+    left: 15%;
+    width: 22%;
+}
+
+.bottomnav a{
+	color: #09133c;
+	text-decoration: none; 
+}
+
+.about-me-bottomnav{
+	width: 40%;
+	height: 5vh;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.my-portfolio-bottomnav{
+	width: 45%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+.bottomnav a:hover{
+background-color:#f6f890;
+}

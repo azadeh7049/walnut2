@@ -1,0 +1,1793 @@
+*{margin: 0;
+  padding: 0;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: Muli,'Arial', serif, sans-serif; 
+}
+
+body{
+    display: grid;
+    grid-template: auto/100%; 
+    box-sizing: border-box;
+    border: #5f5f5f 1px solid;
+   
+}
+
+.top-bar{
+	position: relative;
+	width: 100%;
+	height: 6.2vh;
+	background-color: #1b5336;
+}
+
+.cashback-p1{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 100%;
+	height: 56vh;
+	background-color: #f9f9f9;
+}
+
+.logo{
+	width: 30px;
+    height: 30px;
+    top: 7%;
+    position: absolute;
+}
+
+.mainpage-title{
+position: absolute;;
+display: inline;
+color: #324b38;
+text-align: center;
+font-size: 2.5vw;
+margin-top: 2%;
+}
+
+.offer{
+	position: absolute;
+    width: 66%;
+    height: 86%;
+    top: 19%
+		
+}
+
+.visa-card{
+	display: inline-block;
+    position: absolute;
+    width: 37%;
+    height: 62%;
+    left: 0;
+    top: 8%;
+}
+
+.pre-approved{
+	display: inline-block;
+    position: absolute;
+    left: 41%;
+    font-weight: 100;
+    font-size: 2.6vw;
+}
+
+.offer-msg{
+	display: inline-block;
+    position: absolute;
+    font-size: 1.48vw;
+    line-height: 2vw;
+    top: 16%;
+    left: 41%;
+    width: 59%;
+}
+
+.up1 {
+    font-size: 1.2vw;
+}
+
+.promocode-input{
+	
+    display: inline-block;
+    position: absolute;
+    font-size: 1.3vw;
+    top: 37%;
+    left: 41%;
+    background-color: #d7d7d7;
+    width: 54%;
+    height: 27%;
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+
+.input-code{
+	position: absolute;
+    display: inline-block;
+    background: white;
+    width: 41%;
+    height: 31%;
+    top: 44%;
+}
+
+.fas.fa-info-circle.promo-info{
+	font-size: 2vw;
+    left: 47%;
+    position: absolute;
+    display: inline-block;
+    top: 44%;
+}
+
+.unlock-btn{
+	position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    top: 70%;
+    background-color: #ff9501;
+    width: 26%;
+    height: 12%;
+    left: 41%;
+    color: black;
+}
+
+#offer-plan{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 45vh;
+    }
+
+.condition{
+	position: absolute;
+    height: 9vh;
+    width: 60%;
+    top: 12%;
+    border-bottom: #d6d6d6 solid 1px;
+}
+
+.annual-fee{
+	position: absolute;
+    width: 24%;
+    text-align: center;
+    height: 70%;
+    top: 2%;
+    border-right: solid 1px #d6d6d6;      
+}
+
+.annual-fee-text{
+font-size: .9vw;
+}
+
+.cardholder{
+	position: absolute;
+    left:  26%;
+    top: 5%;
+    width: 24%;
+    height: 70%;
+    text-align: center;
+    border-right: solid 1px #d6d6d6;
+}
+
+.cardholder-text{
+	font-size: .9vw;
+}
+
+.cardholder-sup{
+	font-size: .8vw;
+}
+
+.interest{
+	position: absolute;
+    left:  51%;
+    top: 5%;
+    width: 24%;
+    height: 70%;
+    text-align: center;
+    border-right: solid 1px #d6d6d6;
+}
+
+.interest-text{
+	font-size: .9vw;
+}
+
+.cash-ad{
+	position: absolute;
+    left:  76%;
+    top: 5%;
+    width: 24%;
+    height: 70%;
+    text-align: center;
+    
+}
+
+.cash-ad-text{
+	font-size: .9vw;
+}
+
+.offer-situation{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 60%;
+    height: 20vh;
+    top: 45%;
+}
+
+.offer-period{
+	position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.date{
+	position: absolute;
+    left: 11.5%;
+    font-size: 1vw;
+    top: 0.2%;
+    color: #535353;
+}
+
+.eligibility-requirements{
+	position: absolute;
+    top: 30%;
+    display: inline-block;
+    left: 0;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.requirements{
+	top: 30%;
+    font-size: 1vw;
+    margin-top: 0.2%;
+    color: #535353;
+    font-weight: 100;
+}
+
+.low-income-offer{
+	position: absolute;
+    top: 60%;
+    display: inline-block;
+    left: 0;
+    font-size: 1vw;
+    color: #535353;
+
+}
+
+.low-income-link{
+	position: absolute;
+    left:  29%;
+    top: 60%;
+    font-size: 1vw;
+    color: #7ca47f;
+}
+
+.cashback-benefits{
+	height: 56vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.cashback-benefits-title{
+	position: absolute;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #4f665e;
+    top: 11%;
+	 
+}
+
+.cashback-offers{
+	position: absolute;
+	display: inline-block;
+	width: 95%;
+	height: 40vh;
+	top: 27%;
+	 margin-right: auto;
+    margin-left: auto;
+}
+
+.high-cashback{
+	position: absolute;
+    display: flex;
+    width: 18%;
+    height:  48%;
+    left: 0;
+    top: 0;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.basket{
+	width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.highcashback-title{
+	font-size: 1vw;
+    font-weight: bold;
+}
+
+.highcashback-details{
+	font-size: .7vw;
+	width: 75%;
+	text-align: center;
+}
+
+.highcashback-sup4{
+	font-size: 0.5vw;
+}
+
+.high-cashback-sup5{
+	font-size: 0.5vw;
+}
+
+.low-cashback{
+	position: absolute;
+    display: flex;
+    width: 18%;
+    height: 44%;
+    left: 22%;
+    top: 0;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-content: center;
+}
+
+.low-cashback-icon{
+	margin-bottom: 5%;
+	width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.low-cashback-title{
+	font-size: 1vw;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.low-cashback-details{
+	font-size: .7vw;
+	width: 75%;
+	text-align: center;
+}
+
+.low-cashback-sup{
+	font-size: 0.5vw;
+}
+
+.Redeem-cashback{
+	position: absolute;
+	text-decoration: none;
+	color: black;
+    display: flex;
+    width: 18%;
+    height: 54%;
+    left: 44%;
+    top: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.Redeem-cashback-icon{
+	width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.Redeem-cashback-title{
+	font-size: 1vw;
+    font-weight: bold;
+}
+
+.Redeem-cashback-details{
+	font-size: .7vw;
+	width: 75%;
+	text-align: center;
+}
+
+.Redeem-cashback-sup{
+	font-size: 0.5vw;
+}
+
+.cashback-expiry{
+	position: absolute;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+	color: black;
+    width: 12%;
+    height: 65%;
+    left: 68%;
+    top: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.check-mark-icon{
+	width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.cashback-expiry-title{
+	font-size: 1vw;
+    font-weight: bold;
+}
+
+.cashback-expiry-details{
+	font-size: .7vw;
+	width: 75%;
+	
+}
+
+.road-service{
+	position: absolute;
+	text-decoration: none;
+	color: black;
+    display: flex;
+    width: 16%;
+    height: 42%;
+    right: 0;
+    top: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.road-service-icon{
+	height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.road-service-title{
+	font-size: 1vw;
+    font-weight: bold;
+    }
+
+.road-service-details{
+	font-size: .7vw;
+    width: 75%;
+    text-align: center;
+}
+
+.road-service-sup{
+	font-size: 0.5vw;
+}
+
+.more-benefits{
+position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-bottom: #304f3d 3px solid;
+}
+
+.more-benefits-title{
+color: #345a4d;
+position: absolute;
+font-size: 2vw;
+font-weight: bold;
+top: 4%;
+}
+
+.benefit-options{
+    position: absolute;
+    top: 0%;
+    width: 75%;
+    height: 50%;
+}
+
+
+.fa.fa-plus-square.exclusive-benefits{
+    position: absolute;
+    font-size: 1.5vw;
+    left: 0;
+    top: 32%;
+    color: #48554b;
+    padding: 0;
+    width: 2.1%;
+    border: none;
+}
+
+.exclusive-benefits{
+    left: 5%;
+    width: 95%;
+    position: absolute;
+    font-size: 1vw;
+    color: black;
+    top: 30%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-bottom: #e7e7e7 1px solid;
+    border-top: #e7e7e7 1px solid;
+}		
+	
+.fa.fa-plus-square.automative-features{
+	position: absolute;
+    font-size: 1.5vw;
+    left: 0;
+    top: 45%;
+    color: #48554b;
+    padding: 0;
+    width: 2.1%;
+    border: none;
+}
+
+.automative-features {
+	left: 5%;
+	color: black;
+    width: 75%;
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+}
+
+.fa.fa-plus-square.travel{
+	position: absolute;
+    font-size: 1.5vw;
+    left: 0;
+    color: #48554b;
+    padding: 0;
+    width: unset;
+    border: none;
+    top: 59%;
+}
+
+.travel {
+	left: 5%;
+	color: black;
+    width: 95%;
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    width: 75%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    border-bottom: #e7e7e7 1px solid;
+    border-top: #e7e7e7 1px solid;
+}
+
+.fa.fa-plus-square.security{
+    position: absolute;
+    font-size: 1.5vw;
+    left: 0;
+    top: 74%;
+ 	color: #48554b;
+    padding: 0;
+    width: unset;
+   }
+
+.security{
+	left: 5%;
+    position: absolute;
+    font-size: 1vw;
+    top: 74%; 
+    color: black;
+    width: 75%;
+}
+
+.fa.fa-minus-square.everyday-service{
+	position: absolute;
+    font-size: 1.5vw;
+    left: 0;
+    top: 89%;
+    color: #48554b;
+    width: unset;
+    padding: 0;
+    border: none;    
+}
+
+.everyday-service {
+	left:  5%;
+    position: absolute;
+    font-size: 1vw;
+    top: 84%;
+    color: black;
+    width: 95%;
+    padding-bottom: 1.5%;
+    padding-top: 1.3%;
+    border-top: #e7e7e7 1px solid;
+    
+}
+
+.more-features{
+    position: absolute;
+    display: inline-block;
+    top: 51%;
+    left: 20%;
+    width: 68.5%;
+    font-size: 1.1vw;
+    list-style: none;
+}
+
+
+.more-features li::before{
+	content: "\2022";
+	color: #1c741d;
+	 font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.apple-pay-title{
+	font-weight: bold;
+}
+
+.more-features li{
+	margin-top: 1%;
+	
+}
+
+.e-cashad-title{
+	font-weight: bold;
+}
+
+.e-cashad-detail{
+
+}
+
+.visa-checkout{
+	font-weight: bold;
+}
+
+sup{
+	font-size: .6vw;
+}
+
+.visa-checkout-details{
+border-bottom: #e7e7e7 1px solid;
+padding-bottom: 3%;
+}
+
+.contact-us{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 100%;
+	height: 50vh;
+}
+
+.contact-us-title{
+	position: absolute;
+	display: flex;
+    top: 10%;
+	font-size: 1.5vw;
+	color: #3b594f;
+	}
+
+.contact-us-title a{
+text-decoration: none;
+color: #3d7b25;
+font-weight: bold;
+}
+
+.contact-us-link a{
+	color: #3d7b25;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 4%;
+    text-decoration: none;
+}
+
+	
+.fas.fa-angle-right{
+	color: #3d7b25;
+}
+
+.armchair{
+	position: absolute;
+    left: 17%;
+    top: 20%;
+}
+
+.connect-td{
+	color: #716f7c;
+    font-size: 1vw;
+    top: 30%;
+    position: absolute;
+}
+
+.nav-bar{
+	position: absolute;
+	color: #2e543b;
+	top: 45%;
+    left: 45%;
+
+}
+
+.nav-bar-list{
+	display: flex;
+	list-style: none;
+
+}
+
+.fb{
+	margin-right: 20%;
+}
+
+.fb a{
+	text-decoration: none;
+}
+
+.circle-fb{
+	width: 30px;
+    height: 30px;
+    border: #93af89 solid 1px;
+    position: relative;
+    color: #284e37;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.twtr{
+	margin-right: 20%;
+	}
+
+.twtr a{
+	text-decoration: none;
+}
+
+.circle-twtr{
+	width: 30px;
+    height: 30px;
+    border: #93af89 solid 1px;
+    position: relative;
+    color: #284e37;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.insta{
+margin-right: 20%;
+}
+
+.insta a{
+	text-decoration: none;
+}
+
+.circle-insta{
+	width: 30px;
+    height: 30px;
+    border: #93af89 solid 1px;
+    position: relative;
+    color: #284e37;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.utube{
+margin-right: 20%;
+}
+
+.utube a{
+text-decoration: none;
+}
+
+.circle-utube{
+	width: 30px;
+    height: 30px;
+    border: #93af89 solid 1px;
+    position: relative;
+    color: #284e37;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.lindin{
+margin-right: 20%;
+}
+
+.lindin a{
+text-decoration: none;	
+}
+
+.circle-linkin{
+	width: 30px;
+    height: 30px;
+    border: #93af89 solid 1px;
+    position: relative;
+    color: #284e37;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.disclaimers{
+	position: absolute;
+    top: 70%;
+    left: 19%;
+    font-size: 1vw;
+    color: black;
+}
+
+
+.fa.fa-plus-square.disclaimers{
+    position: absolute;
+    left: 16%;
+    font-size: 1.5vw;
+    color: #284e37;
+    top: 69%;
+}
+
+.disclame-links{
+display: none;
+}
+
+
+@media only screen and (max-width: 940px){
+
+.offer {
+  width: 80%;
+}
+
+.offer-msg {
+    font-size: 1.7vw;
+    }
+
+.promocode-input {
+    font-size: 1.5vw;
+    width: 55%;
+}
+
+.visa-card {
+    height: 52%;
+}
+
+.annual-fee {
+   height: 79%;
+    }
+
+.annual-fee-text {
+    font-size: 1.2vw;
+}
+
+.fee{
+	font-size: 2.5vw;
+}
+
+.cardholder{
+	height: 79%;
+}
+
+.cardholder-text {
+    font-size: 1.2vw;
+}
+
+.cardholder-fee{
+	font-size: 2.5vw;
+}
+
+.cardholder-sup{
+	font-size: 1.5vw;
+}
+
+.interest{
+	height: 79%;
+}
+
+.interest-text{
+	font-size: 1.2vw;
+}
+
+.interest-fee{
+	font-size: 2.5vw;
+}
+
+.cash-ad{
+	height: 79%;
+}
+
+.cash-ad-text{
+	font-size: 1.2vw;
+}
+
+.cash-ad-fee{
+	font-size: 2.5vw;
+}
+
+.offer-period {
+  font-size: 1.5vw;
+}
+
+.date {
+    left: 15%;
+    font-size: 1.4vw;
+    }
+
+.eligibility-requirements {
+    font-size: 1.5vw;
+}
+
+.requirements{
+	 font-size: 1.4vw;
+}
+
+.low-income-offer{
+	font-size: 1.5vw;
+}
+
+.low-income-link{
+	font-size: 1.4vw;
+	left: 43%;
+}
+
+.cashback-benefits {
+    height: 49vh;
+}
+
+.cashback-offers {
+    height: 30vh;
+}
+
+.high-cashback {
+    height: 75%;
+    }
+
+.cashback-benefits-title {
+  font-size: 2.5vw;
+}
+
+.highcashback-title {
+    font-size: 1.2vw;
+}
+
+.highcashback-details {
+    font-size: 1vw;
+    width: 81%;
+}
+
+.highcashback-sup4 {
+    font-size: 0.8vw;
+}
+
+.highcashback-sup5{
+    font-size: 0.8vw;
+}
+
+.low-cashback {
+   height: 60%;
+}
+
+.low-cashback-title{
+ font-size: 1.2vw;
+}
+
+.low-cashback-details{
+font-size: 1vw;
+    width: 81%;
+}
+
+.low-cashback-sup{
+font-size: 0.8vw;
+}
+
+.Redeem-cashback {
+    width: 20%;
+    height: 65%;
+    }
+
+.Redeem-cashback-title{
+ font-size: 1.2vw;
+}
+
+.Redeem-cashback-details{
+font-size: 1vw;
+    width: 81%;
+}
+
+.Redeem-cashback-sup{
+font-size: 0.8vw;
+}
+
+.cashback-expiry-title{
+ font-size: 1.2vw;
+}
+
+.cashback-expiry-details{
+font-size: 1vw;
+    width: 81%;
+}
+
+.road-service {
+    height: 56%;
+    }
+
+.road-service-title{
+ font-size: 1.2vw;
+}
+
+.road-service-details{
+font-size: 1vw;
+    width: 81%;
+}
+
+.road-service-sup{
+	font-size: 0.8vw;
+}
+
+.more-benefits-title {
+    font-size: 2.5vw;
+}
+
+.fa.fa-plus-square.exclusive-benefits, .fa.fa-plus-square.automative-features, .fa.fa-plus-square.security,.fa.fa-plus-square.travel, .fa.fa-plus-square.travel, .fa.fa-minus-square.everyday-service{
+    border: none;
+    font-size: 2vw;
+}
+
+.exclusive-benefits {
+    font-size: 2vw;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.fa.fa-plus-square.exclusive-benefits {
+    top: 35%;
+    }
+
+.automative-features {
+    font-size: 2vw;
+    top: 46%;
+}
+
+
+.fa.fa-plus-square.automative-features {
+        top: 47%;
+}
+
+.fa.fa-plus-square.travel {
+     top: 61%;
+}
+
+.travel {
+	 font-size: 2vw;
+     top: 57%;
+     width: 95%;
+}
+
+.security {
+    font-size: 2vw;
+    top: 73%;
+}
+.fa.fa-plus-square.security {
+    top: 74%;
+    }
+
+.everyday-service {
+    font-size: 2vw;
+    top: 84%;
+}
+
+.fa.fa-minus-square.everyday-service {
+    top: 88%;
+}
+
+.more-features {
+    font-size: 1.7vw;
+
+}
+
+sup {
+    font-size: 1vw;
+}
+
+.contact-us-title {
+  font-size: 2vw;
+}
+
+.connect-td {
+    font-size: 1.5vw;
+    }
+
+.armchair {
+    left: 12%;
+}
+    .nav-bar {
+    left: 34%;
+}
+
+    .circle-fb, .circle-twtr, .circle-insta, .circle-utube , .circle-linkin {
+    width: 40px;
+    height: 40px;
+    font-size: 2vw;
+}
+
+.disclaimers {
+    top: 69%;
+    left: 19%;
+    font-size: 1.5vw;
+}
+
+
+
+@media only screen and (max-width: 640px){
+
+.cashback-p1 {
+    height: 105vh;
+}
+
+.mainpage-title {
+    font-size: 4.5vw;
+    margin-top: 5%;
+}
+
+.offer{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    top: 14%;
+}
+
+.visa-card{
+	left: unset;
+	width: 82%;
+    height: 37%;
+    top: 0%;
+}
+
+.pre-approved {
+    left: unset;
+    top: 41%;
+    font-size: 4.6vw;
+}
+
+.up1 {
+    font-size: 2.2vw;
+}
+
+.offer-msg {
+    font-size: 3vw;
+    top: 47%;
+    line-height: 4.5vw;
+    width: 105%;
+    left: unset;
+    text-align: center;
+}
+
+.promocode-input {
+    font-size: 2.9vw;
+    text-align: center;
+    top: 62%;
+    left: unset;
+    background-color: unset;
+    width: 81%;
+    height: 23%;
+    padding-left: unset;
+    }
+
+.input-code {
+    border: #d7d7d7 1px solid;
+    background: white;
+    width: 77%;
+    height: 26%;
+    left: 5%;
+    top: 55%;
+}
+
+.fas.fa-info-circle.promo-info {
+    font-size: 5vw;
+    left: 85%;
+    top: 59%;
+}
+
+.unlock-btn {
+    top: 85%;
+    width: 55%;
+    height: 7%;
+    left: 20%;
+    font-weight: bold;
+}
+
+#offer-plan{
+	height: 85vh;
+}
+
+.condition {
+    width: 75%;
+    top: 5%;
+    height: 47%;
+    border-right: unset;
+    border-bottom: solid 1px #d6d6d6;
+}
+
+.annual-fee {
+    width: 100%;
+    text-align: left;
+    border-right: unset;
+    left: 4%;
+}
+
+.annual-fee-text {
+    font-size: 3vw;
+}
+
+.fee{
+	top: -8%;
+    right: 16%;
+    position: absolute;
+    font-size: 4vw;
+}
+
+
+.cardholder {
+    left: 4%;
+    top: 22%;
+    width: 100%;
+    text-align: unset;
+    border-right: unset;
+}
+
+.cardholder-text{
+font-size: 3vw;
+top: 5%;
+position: absolute;
+}
+
+.cardholder-fee{
+	top: 0%;
+    right: 16%;
+    font-size: 4vw;
+    position: absolute;
+}
+
+.cardholder-sup{
+	font-size: 1.5vw;
+}
+
+.interest{
+   left: 4%;
+    top: 48%;
+    width: 100%;
+    text-align: unset;
+    border-right: unset;	
+}
+
+.interest-text{
+font-size: 3vw;
+top: 5%;
+position: absolute;
+}
+
+.interest-fee{
+	top: 0%;
+    right: 9%;
+    font-size: 4vw;
+    position: absolute;
+}
+
+.cash-ad{
+	left: 4%;
+    top: 74%;
+    width: 100%;
+    text-align: unset;
+    border-right: unset;
+}
+
+.cash-ad-text{
+font-size: 3vw;
+top: 5%;
+position: absolute;
+}
+
+.cash-ad-fee{
+    top: 0%;
+    right: 9%;
+    font-size: 4vw;
+    position: absolute;
+}
+
+.offer-situation{
+	width: 70%;
+    height: 30vh;
+    top: 60%;
+}
+
+.offer-period{
+	font-size: 3vw;
+}
+
+.date{
+	font-size: 3vw;
+	left: 29%;
+}
+
+.eligibility-requirements {
+	font-size: 3vw;
+	text-align: center;
+}
+
+.requirements{
+	font-size: 3vw;
+	
+}
+
+.low-income-offer{
+	font-size: 3vw;
+    left: 11%;
+    top: 68%;
+}
+
+sup {
+    font-size: 1.6vw;
+}
+
+.low-income-link{
+	font-size: 3vw;
+	left:  7%;
+    top: 80%;
+}
+
+.cashback-benefits {
+    height: 232vh;
+}
+
+.cashback-benefits-title {
+	top: 3%;
+	width: 54%;
+    text-align: center;
+    font-size: 5vw;
+	   }
+
+
+.cashback-offers{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 85%;
+    top: 10%;
+    height: 130vh;
+} 
+
+.high-cashback{
+	height: 30%;
+    width: 100%;
+    left: unset;
+    display: flex;
+}
+
+.basket {
+	position: absolute;
+    width: 120px;
+    height: 120px;
+    }
+
+.highcashback-title {
+    font-size: 3.33vw;
+    position: absolute;
+    top: 67%;
+    text-align: center;
+    color: black;
+    }
+
+    .highcashback-details {
+    top: 77%;
+    position: absolute;
+    color: black;
+    font-size: 3.25vw;
+    font-weight: 100;
+}
+
+.highcashback-sup4{
+	font-size: 2vw;
+}
+
+.highashback-sup5{
+	font-size: 2vw;
+}
+
+.low-cashback{
+    height: 30%;	
+    width: 100%;
+    left: unset;
+    display: flex;
+    top: 35%;
+    }
+
+.low-cashback-icon{
+	position: absolute;
+	width: 120px;
+    height: 120px;
+}
+
+.low-cashback-title{
+	font-size: 3.33vw;
+    position: absolute;
+    top: 65%;
+    text-align: center;
+}
+
+.low-cashback-details{
+	position: absolute;
+	top: 75%;
+	font-size: 3vw;
+    font-weight: 100;
+}
+
+.Redeem-cashback{
+	height: 30%;
+    width: 100%;
+    left: unset;
+    display: flex;
+    top: 63%;
+   }
+
+.dollars.jpg{
+position: absolute;
+width: 120px;
+height: 120px;
+}
+
+.Redeem-cashback-title{
+position: absolute;
+font-size: 3.33vw;
+top: 67%;
+}
+
+.Redeem-cashback-details{
+	position: absolute;
+	top: 77%;
+	font-size: 3vw;
+    font-weight: 100;
+}
+
+.Redeem-cashback-sup{
+font-size: 2vw;
+}
+
+.Redeem-cashback-icon{
+	position: absolute;
+	width: 120px;
+    height: 120px;
+}
+
+
+.cashback-expiry{
+	height: 30%;
+    width: 100%;
+    left: unset;
+    top: 96%;
+    text-align: center;
+}
+
+.check-mark-icon{
+position: absolute;
+width: 127px;
+height: 120px;
+}
+
+.cashback-expiry-title{
+position: absolute;
+font-size: 3.33vw;
+top: 68%;
+}
+
+.cashback-expiry-details{
+	position: absolute;
+	top: 77%;
+	font-size: 3vw;
+    font-weight: 100;
+}
+
+.road-service{
+    height: 30%;
+    width: 100%;
+    left: unset;
+    top: 128%;
+    text-align: center;
+}
+
+.road-service-icon{
+position: absolute;
+width: 120px;
+height: 120px;	
+}
+
+.road-service-title{
+position: absolute;
+font-size: 3.33vw;
+top: 67%;
+}
+
+.road-service-details{
+position: absolute;
+font-size: 3vw;
+font-weight: 100;
+top: 77%;
+}
+
+.more-benefits {
+	border-bottom:none;
+	height: 160vh;
+}
+
+.benefit-options {
+    width: 83%;
+      }
+
+.more-benefits-title {
+    font-size: 4vw;
+}
+
+.exclusive-benefits {
+    font-size: 3vw;
+    left: 0;
+    width: 100%;
+    text-indent: 12%;
+    height: 14%;
+    padding-top: 3%;
+}
+
+.fa.fa-plus-square.exclusive-benefits {
+    font-size: 5vw;
+    top: 33%;
+    border: none;
+    color: #48554b;
+}
+
+.automative-features {
+    font-size: 3vw;
+    left: 0;
+    width: 100%;
+    text-indent: 12%;
+    top: 47%;
+   
+}
+
+.fa.fa-plus-square.automative-features {
+	font-size: 5vw;
+    top: 45.5%;
+	border: none;
+    color: #48554b;
+ 
+}
+
+.travel {
+    left: 0;
+    font-size: 3vw;
+    top: 56%;
+    width: 100%;
+    text-indent: 12%;
+    height: 13%;
+    padding-top: 2%;
+    }
+
+.fa.fa-plus-square.travel{
+    font-size: 5vw;
+    top: 58%;
+    border: none;
+    color: #48554b;
+}
+
+.security{
+	left: 0;
+    font-size: 3vw;
+    top: 72%;
+    width: 100%;
+    text-indent: 13%;
+    
+}
+
+.fa.fa-plus-square.security{
+font-size: 5vw;
+top: 71%;
+color: #48554b;
+}
+
+
+.fa.fa-plus-square.everyday-service{
+font-size: 3vw;
+    top: 44%;
+   
+}
+.everyday-service {
+    font-size: 3vw;
+    top: 81%;
+    height: 13%;
+    width: 100%;
+    left: 0;
+    text-indent: 13%;
+    }    
+
+ .fa.fa-minus-square.everyday-service{
+ 	font-size: 5vw;
+    height: 13%;
+    top: 83.5%;
+    color: #48554b;
+    border: none;
+}
+
+.visa-checkout-details{
+border-bottom: none;
+}
+ 
+.more-features {
+    font-size: 2.8vw;
+    top: 48%;
+}
+
+.more-features li {
+    margin-top: 5%;
+    line-height: 1.5em;
+}
+
+.more-features p{
+	line-height: 1.3em;
+}
+.contact-us {
+	height: 150vh;
+}
+
+.contact-us-title {
+	display: inline-block;
+    font-size: 5.5vw;
+    width: 89%;
+    text-align: center;
+    top: 5%;
+}
+
+.contact-us-link a{
+	color: #3d7b25;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 4%;
+    text-decoration: blink;
+}
+
+.fas.fa-angle-right {
+    position: absolute;
+    left:  69%;
+    top: 61%;
+}
+
+.connect-td {
+    color: #716f7c;
+    font-size: 4vw;
+    top: 16%;
+    position: absolute;
+}
+
+.armchair {
+top: 81%;
+left: unset;
+}
+
+.nav-bar {
+  top: 23%;
+  left: unset;
+  width: 71%
+}
+
+.fb {
+    margin-right: 12%;
+}
+
+.circle-fb {
+    width: 40px;
+    height: 40px;
+    font-size: 3vw;
+    }
+
+.twtr {
+    margin-right: 12%;
+}
+
+.circle-twtr{
+	width: 40px;
+    height: 40px;
+    font-size: 3vw;
+}
+
+.insta {
+    margin-right: 12%;
+}
+
+.circle-insta{
+	width: 40px;
+    height: 40px;
+    font-size: 3vw;
+}
+
+.utube {
+    margin-right: 12%;
+}
+
+.circle-utube{
+	width: 40px;
+    height: 40px;
+    font-size: 3vw;
+}
+
+.circle-linkin{
+	width: 40px;
+    height: 40px;
+    font-size: 3vw;
+}
+
+.fa.fa-plus-square.disclaimers{
+	display: none;
+}
+
+.disclaimers{
+	display: none;
+}
+
+.disclame-links{
+	display: block;
+	position: absolute;
+    top: 33%;
+    line-height: 3em;
+    text-align: center;
+}
+
+.disclame-links p a{
+	text-decoration: none;
+    color: #716f7c;
+}
+
+}

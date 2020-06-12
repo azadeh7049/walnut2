@@ -1,0 +1,197 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: 'Quicksand','Montserrat','Arial', sans-serif, serif; 
+
+}
+body{
+     display: grid;
+    grid-template: auto/100%; 
+    box-sizing: border-box;
+    
+}
+
+section{
+	position: relative;
+	display: flex;
+	width: 100%;
+    height: 350vh;
+}
+
+header{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+}
+
+h2{
+	position: absolute;
+    display: block;
+    width: 60%;
+    background-color: #f6f890;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+a{
+	color: #09133c;
+}
+
+.project4-link{
+	position: absolute;
+    display: block;
+    top: 10%;
+    left: 12%;
+    text-decoration: underline;
+}
+
+.project4-mainp{
+    width: 36%;
+    height: 19%;
+    position: absolute;
+    display: block;
+    top: 13%;
+    left: 12%;
+}
+
+.project3-link{
+	position: absolute;
+    display: block;
+    top: 10%;
+    right: 13%;
+    text-decoration: underline;
+}
+
+.project3-mainp{
+    width: 36%;
+    height: 18%;
+    position: absolute;
+    display: block;
+    top: 14%;
+    right: 12%;
+}
+
+.project2{
+	position: absolute;
+    top: 36%;
+    left: 10%;
+    width: 38%;
+    height: 30%;
+}
+
+
+
+.project2-mainp1{
+	position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 16%;
+}
+
+.project2-link{
+	position: absolute;
+	right: 2%;
+	text-decoration: underline;
+}
+
+
+.project1 a,.project2 a:hover{
+background-color:#f6f890;
+}
+
+.project1{
+	position: absolute;
+    top: 36%;
+    right: 13%;
+}
+
+.project1-mainp{
+	position: absolute;
+    display: block;
+    width: 36%;
+    height:  30%;
+    right: 12%;
+    top: 41%;
+}
+
+.td{
+	position: absolute;
+    top: 73%;
+    left: 10%;
+    width: 62%;
+    height: 18%;
+}
+
+.td-mainp{
+	position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 20%;
+}
+
+.backtotop{
+bottom: 0%;
+    right: 10%;
+    position: absolute;
+    color: #09133c;
+    background-color: #f6f890;
+    height: 2%;
+    width: 9%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 1%;
+}
+
+footer {
+	position: relative;
+    display: flex;
+    top: 20vh
+    width: 95%;
+    left: 2%;
+    border-top: #f6f890 solid 1px;
+}
+
+.bottom-nav{
+	position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    width: 50%;
+   
+}
+
+.bottom-nav div{
+	padding-right: 5%;
+
+}
+
+.bottom-nav a{
+ color: #09133c;
+}
+
+.contact-me-bottomnav{
+display: block;
+    width: 110%;
+}
+
+.link{
+	position: absolute;
+    display: block;
+    right: .5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 11%;
+}
+
+.link a{
+	padding-left: 12%;
+    text-decoration: none;
+    color: #09133c;;
+}
