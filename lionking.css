@@ -90,11 +90,15 @@ a.fas.fa-graduation-cap:before{
 }
 
 .pg-frame{
-position: relative;
-display: flex;
-justify-content: center;
-text-align: end;
-border-top: 2px solid #fed600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 125vh;
+    text-align: end;
+    border-top: 2px solid #fed600;
 }
 
 
@@ -108,7 +112,7 @@ border-top: 2px solid #fed600;
     width: 14%;
     font-size: 3.5vw;
     color: #f6f890;
-    bottom: 274px;
+    bottom: 45%;
  }
 
 .circuit{
@@ -207,8 +211,8 @@ footer{
    position: absolute;
    display: flex;
    justify-content: flex-start;
-   margin-top: 4%;
    width: 31%;
+    bottom: 11%;
    }
 
 .bottom-nav a{
@@ -807,7 +811,7 @@ width: 26%;
 
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:940px){
 
 
 img.logo{
@@ -823,23 +827,10 @@ header .fas.fa-bars {
     font-size: 8vw;
 }
 
-.videohero-frame .fas.fa-bars {
-    font-size: 8vw;
-    top: -81px;
-    right: 5%;
-}
-
-#videohero, .overlay, .videohero-text {
+ .overlay, .videohero-text {
     display: none;
 }
 
-
-.heroimg{
-    display: block;
-    position: relative;
-    transition-duration: 2s;
-    width: 100%;
-}
 
 .videohero-text{
     display: inline-block;
