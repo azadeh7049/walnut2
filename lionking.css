@@ -52,41 +52,8 @@ img.logo
     }
 
 
-
-a.fas.fa-map-marker-alt:before{
-    display: block;
-    text-align: center;
-    color: white;
-}
-
-a.fa.fa-gift:before{
-    display: block;
-    text-align: center;
-    color: white;
-}
-
-a.fa.fa-search:before{
-    display: block;
-    text-align: center;
-    font-size: 145%;
-    color: white;
-}
-
-a.fas.fa-graduation-cap:before{
-    display: block;
-    text-align: center;
-}
-
 .fas.fa-bars{
     display: none;
-}
-
-
-
-.quick-links{
-    position: absolute;
-    display: block;
-    font-size: 1.2vw;
 }
 
 .pg-frame{
@@ -113,6 +80,16 @@ a.fas.fa-graduation-cap:before{
     font-size: 3.5vw;
     color: #f6f890;
     bottom: 45%;
+ }
+
+ .mainpart{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
  }
 
 .circuit{
@@ -203,6 +180,8 @@ a.contact-me-bottomnav{
 }
 
 footer{
+    position: relative;
+    top: -1.5%;
     width: 100%;
     height: 23vh;
     border-top: solid 2px rgb(254,214,0);
@@ -213,7 +192,7 @@ footer{
    display: flex;
    justify-content: flex-start;
    width: 31%;
-    bottom: 11%;
+    bottom: 58%;
    }
 
 .bottom-nav a{
@@ -808,22 +787,6 @@ left: 0.5%
 
 .connect-border{
 width: 26%;
-}
-
-.bottom-nav a {
-    width: 70%;
-}
-
-a.about-me-bottomnav {
- left: 0%;
-}
-
-a.my-portfolio-bottomnav {
-    left: 49%;
-    }
-
-a.contact-me-bottomnav {
-    left: 100%;
 }
 
 }
