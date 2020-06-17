@@ -269,7 +269,12 @@ display: block;
     top: 8%;
 }
 
-
+.td {
+    top: 74%;
+    left: 8%;
+    width: 84%;
+    height: 9%;
+}
 
 
 
