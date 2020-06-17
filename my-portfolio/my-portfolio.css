@@ -297,6 +297,10 @@ display: block;
 
 @media only screen and (max-width: 640px){
 
+    h2 {
+   width: 90%;
+}
+
 section {
     height: 500vh;
 }
