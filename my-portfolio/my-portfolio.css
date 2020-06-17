@@ -251,9 +251,15 @@ display: block;
     width: 86%;
     top: 39%;
     right: 7%;
+    height: 10%;
 }
 
-
+.project2 {
+    top: 48%;
+    left: 7%;
+    width: 86%;
+    height: 23%;
+}
 
 
 
