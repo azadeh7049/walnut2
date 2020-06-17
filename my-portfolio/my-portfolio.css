@@ -204,7 +204,7 @@ display: block;
 
 @media only screen and (max-width: 940px){
 
-    .section{
+    section{
         height: 700vh;
     }
 
