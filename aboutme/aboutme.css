@@ -14,33 +14,33 @@ body{
 }
 
 .myphoto{
-	position: relative;
-	display: block;
-	width: 30%;
-	height: 54%;
-	left: 5%;
-	top: 10%;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 54%;
+    left: 5%;
+    top: 10%;
 }
 
 p{
-	position: absolute;
+    position: absolute;
     font-size: 1.7vw;
     display: block;
     width: 45%;
     left: 48%;
-    top: 25%;
+    top: 34%;
      color: #09133c;
 }
 
 h1{
-	position: absolute;
+    position: absolute;
     display: block;
-    top: 12%;
+    top: 20%;
     left: 60%;
 }
 
 footer {
-	position: absolute;
+    position: absolute;
     display: flex;
     top: 100vh;
     width: 95%;
@@ -49,7 +49,7 @@ footer {
 }
 
 .bottom-nav{
-	position: absolute;
+    position: absolute;
     display: flex;
     flex-direction: row;
     margin-top: 5%;
@@ -58,7 +58,7 @@ footer {
 }
 
 .bottom-nav div{
-	padding-right: 5%;
+    padding-right: 5%;
 
 }
 
@@ -72,7 +72,7 @@ display: block;
 }
 
 .link{
-	position: absolute;
+    position: absolute;
     display: block;
     right: .5%;
     margin-top: 6%;
@@ -80,7 +80,27 @@ display: block;
 }
 
 .link a{
-	padding-left: 20%;
+    padding-left: 20%;
     text-decoration: none;
     color: #09133c;;
 }
+
+@media only screen and (max-width:940px){
+
+
+
+.myphoto {
+   height: 40%;
+    width: 38%;
+}
+
+p {
+    position: absolute;
+    font-size: 2.3vw;
+}
+
+    .link {
+        width: 30%;
+}
+
+} 
