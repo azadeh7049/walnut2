@@ -79,7 +79,7 @@ img.logo
     width: 14%;
     font-size: 3.5vw;
     color: #f6f890;
-    bottom: 45%;
+    bottom: 28S%;
  }
 
  .mainpart{
@@ -410,7 +410,8 @@ ul.navbar li a {
 }
 
 #top-navigator {
-    top: -92px;
+    top: -81px;
+    right: 8%;
 }
 
 #top-navigator ul {
@@ -439,21 +440,6 @@ ul.navbar li a {
 #top-navigator li a.fa.fa-search{
     font-size: 2.5vw;
 }
-.top-yellow-box{
-    display: block;
-    width: 0;
-    left: 0;
-    background-color: blue;
-    height: 12%;
-    text-align: left;
-    margin-top: 6px;
-    padding-top: 12px;
-    padding-left: 0;
-    z-index: 10;
-    font-size: 2.5vw;
-    font-weight: bold;
-    transition: width 2s ease;
-}
 
 
 .backgd-text {
@@ -465,15 +451,11 @@ ul.navbar li a {
 
 
 
-.fas.fa-bars:focus ~ .heroimg{
-    transform: translateX(45%);
-}
+
 .fas.fa-bars:focus ~ .overlay{
     width: 45%;
 }
-.fas.fa-bars:focus ~ .top-yellow-box{
-    width: 45%;
-}
+
 
 .fas.fa-bars:focus ~ #top-navigator ul {
     width: 45%;
