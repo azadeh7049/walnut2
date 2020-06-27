@@ -121,6 +121,11 @@ p {
     top: 28%;
 }
 
+.bottom-nav {
+    font-size: 4vw;
+    left: 2%;
+}
+
 footer{
     top: 71vh;
 }
