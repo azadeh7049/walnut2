@@ -104,3 +104,35 @@ p {
 }
 
 } 
+
+
+@media only screen and (max-width:640px){
+
+
+.link {
+    width: 45%;
+    left: 0;
+    margin-top: 27%;
+}
+
+.myphoto {
+    height: 24%;
+    width: 38%;
+    top: 28%;
+}
+
+footer{
+    top: 71vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
