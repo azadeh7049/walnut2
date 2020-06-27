@@ -108,7 +108,12 @@ p {
 
 @media only screen and (max-width:640px){
 
-
+.link {
+    width: 45%;
+    left: 4%;
+    margin-top: 19%;
+    margin-bottom: 6%;
+}
 
 
 .link a {
