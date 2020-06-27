@@ -30,7 +30,7 @@ img.logo
 #top-navigator {
     position: absolute;
     display: block;
-    top: -86px;
+    top: -11%;
     right: 1%;
     text-decoration: none;
     list-style: none;
@@ -39,9 +39,8 @@ img.logo
 #top-navigator ul{
     list-style: none;
     display: flex;
-    margin-right: 15%;
-
-}
+    flex-direction: row-reverse;
+    }
 
  #top-navigator li a{
     color: #f6f890;
@@ -233,26 +232,26 @@ height: 6vh;
 }
 
 @media only screen and (max-width:940px){
+
 img.logo{
     margin-left: 3%;
 }
 
-
-#top-navigator ul{
-    position: absolute;
-    right: -8%;
-}
-
 .fas.fa-bars{
+    display: flex;
+    font-size: 3vw;
     position: absolute;
-    display: flex; 
-    color: white;
-    z-index: 10;
-    top: -65px;
-    right: 3%;
-    font-size: 4vw;
+    top: -9%;
     text-decoration: none;
+    right:5%;
+    color: #f6f890;
+   }
+
+#top-navigator {
+    top: -12%;
+    right: 7%;
 }
+
 .overlay{
     position: fixed;
     display: none;
@@ -267,7 +266,9 @@ img.logo{
     overflow: hidden;
 }
 
-
+.pg-frame {
+    height: 72vh;
+}
 
 .bottom-nav {
     width: 48%;
@@ -298,6 +299,10 @@ ul.navbar li a {
    
   }
 
+.circuit {
+   top: 0%;
+}
+
 ul.navbar {
     display: block;
     text-align: left;
@@ -326,7 +331,7 @@ ul.navbar {
 }
 
 footer {
-    top: 39.5%;
+    top: 41%;
 }
 
 a.about-me-bottomnav {
@@ -387,6 +392,13 @@ header .fas.fa-bars {
     overflow: hidden;
     z-index: 1;
 }
+.mainpart {
+    height: 100%;
+}
+
+.circuit {
+    height: 60vh;
+}
 
 ul.navbar {
 padding-top: 125px;
@@ -444,9 +456,9 @@ ul.navbar li a {
 
 
 .backgd-text {
-    width: 27%;
+    width: 37%;
     font-size: 5.5vw;
-    bottom: 40%;
+    top: 40%;
 }
 
 
@@ -909,193 +921,14 @@ top: 70px;
     top: 25%;
 }
 
-.more-news i {
-    
-    font-size: 3.3vw;
-}
 
-.grey-box {
-   height: 1600px;
-}
 
-.grey-control-box {
-    width: 90%;
-    height: 95%;
-  
-}
-
-.leaders {
-    font-size: 3.5vw;
-    top: -2%;
-    left: 3%;
-    }
-
-    .main-text {
-    margin-top: 45px;
-    font-size: 3.8vw;
-}
-
-.image-control-box {
-  margin-top: 34%;
-  height: 53%;
-}
-
-.left-box {
-    margin-top: 37px;
-    height: 90%;
-    width: 100%;
-}
-
-.standard-img1 {
-    width: 100%;
-}
-
-.homer-simpson {
-    font-size: 4.1vw;
-    margin-top: 20px;
-    }
-
-   .professor-of-nuclear {
-   
-    font-size: 3vw;
-    margin-top: 10px;
-   
-} 
-
-.homer-simpson-text {
-    font-size: 3vw;
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
-
-.right-box {
-    margin-top: -80px;
-    width: 100%;
-    
-}
-
-.standard-img2 {
-    width: 100%;
-}
-
-.lisa-simpson {
-font-size: 4.1vw;
-    margin-top: 20px;
-    }
-
-.professor-of-science {
-font-size: 2.172vw;
-    margin-top: 15px;
-   
-} 
-
-.lisa-simpson-text {
-font-size: 2.3vw;
-    margin-top: 15px;
-}
-
-.view-all-staff {
-width: 28%;
-height: 42px;
-bottom: 6px;
-    left: 40%;
-}
-
-.bottom-link {
-font-size: 2.3vw;
-    font-weight: bold;
-    margin-top: 9px;
-}
-
-.view-all-staff i.fa.fa-angle-right {
-font-size: 2.7vw;
-    top: 8px;
-    color: blue;
-}
-
-.school-today-box{
-    height: 117vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.school-today-img {
-   height: 43%;
-    width: 90%;
-    left: unset;
-}
-
-.campaign {
-    width: 96%;
-    height: 10%;
-    right: unset;
-    top: 60%;
-    }
-
-.campaign a {
-   font-size: 3vw;    
-}
-
-.campaign i.fas.fa-tv {
-   left: 29%;
-   top: 25px;
-   color: rgb(0,57,118);
-}
-
-.campaign-website {
-    margin-top: 21px;
-    color: rgb(0,57,118);
-    }
-
-.campaign i.fa.fa-angle-right {
-    top: 22px;
-    right: 32%;
-    font-size: 3.5vw;
-    color: rgb(0,57,118);
-}
-
-.thank-you a {
-    font-size: 3vw;
-}
-
-.thank-you {
-    width: 96%;
-    height: 10%;
-    top: 74%;
-    right: unset;
-}
-
-.donors {
-    margin-top: 19px;
-    color: rgb(0,57,118);
-    font-size: 2.9vw;
-    margin-right: 0;
-    margin-left: 0;
-    font-weight: bold;
-}
-
-.thank-you i.fa.fa-newspaper-o {
-   margin-top: 2px;
-    font-size: 3vw;
-    left: 20%;
-    color: rgb(0,57,118);
-}
-
-.thank-you i.fa.fa-angle-right {
-    right: 22%;
-    top: 23px;
-    font-size: 3vw;
-    color: rgb(0,57,118);
-}
 
 footer {
-  border-top: solid 3px yellow;
+    border-top: solid 2px yellow;
     height: 20vh;
     position: absolute;
-    top: 80%;
+    top: 83.5%
 }
 
 .top-btn {
@@ -1168,9 +1001,11 @@ footer nav {
 .bottom-nav {
     width: 66%;
     display: block;
-    top: 21%;
+    top: 10%;
     border-top: none;
-    border-bottom:none;
+    border-bottom: none;
+    font-size: 3vw;
+    font-weight: bold;
 }
 
 .link {
