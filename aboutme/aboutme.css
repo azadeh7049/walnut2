@@ -111,20 +111,25 @@ p {
 
 .link {
     width: 45%;
-    left: 0;
-    margin-top: 27%;
-    margin-bottom: 15%;
+    left: 4%;
+    margin-top: 19%;
+    margin-bottom: 6%;
 }
 
+.link a {
+    padding-right: 20%;
+    padding-left: 0;
+    }
+
 .myphoto {
-    height: 45%;
+    height: 55%;
     width: 90%;
     top: 20%;
 }
 
 .bottom-nav {
     font-size: 4vw;
-    left: 2%;
+    left: 4%;
 }
 
 h1 {
@@ -136,13 +141,13 @@ h1 {
 p {
     
     font-size: 4.3vw;
-    top: 85%;
+    top: 99%;
     width: 89%;
     left: 6%;
 }
 
 footer {
-    top: 141vh;
+    top: 175vh;
 }
 
 
