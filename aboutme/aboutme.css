@@ -1,3 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: 'Quicksand','Montserrat','Arial', sans-serif, serif; 
+
+}
+body{
+    display: grid;
+    grid-template: auto/100%;
+    box-sizing: border-box;
+    height: 125vh;
+}
+
+.myphoto{
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 54%;
+    left: 5%;
+    top: 10%;
+}
+
+p{
+    position: absolute;
+    font-size: 1.7vw;
+    display: block;
+    width: 45%;
+    left: 48%;
+    top: 34%;
+     color: #09133c;
+}
+
+h1{
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 60%;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    top: 100vh;
+    width: 95%;
+    left: 2%;
+    border-top: #f6f890 solid 1px;
+}
+
+.bottom-nav{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 50%;
+   
+}
+
+.bottom-nav div{
+    padding-right: 5%;
+
+}
+
+.bottom-nav a{
+ color: #09133c;
+}
+
+.contact-me-bottomnav{
+display: block;
+    width: 110%;
+}
+
+.link{
+    position: absolute;
+    display: block;
+    right: .5%;
+    margin-top: 6%;
+    width: 11%;
+}
+
+.link a{
+    padding-left: 20%;
+    text-decoration: none;
+    color: #09133c;;
+}
+
+@media only screen and (max-width:940px){
+
+
+
+.myphoto {
+   height: 40%;
+    width: 38%;
+}
+
+p {
+    position: absolute;
+    font-size: 2.3vw;
+}
+
+    .link {
+        width: 30%;
+}
+
+} 
+
+
 @media only screen and (max-width:640px){
 
 
@@ -5,6 +113,7 @@
     width: 45%;
     left: 0;
     margin-top: 27%;
+    margin-bottom: 15%;
 }
 
 .myphoto {
@@ -34,4 +143,16 @@ p {
 
 footer {
     top: 141vh;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
