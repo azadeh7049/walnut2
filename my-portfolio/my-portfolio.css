@@ -152,7 +152,7 @@ bottom: 0%;
 footer {
     position: relative;
     display: flex;
-    top: 20vh
+    height: 20vh;
     width: 95%;
     left: 2%;
     border-top: #f6f890 solid 1px;
@@ -302,16 +302,16 @@ display: block;
 }
 
 section {
-    height: 500vh;
+    height: 730vh;
 }
 
 .project4-link {
-    top: 6%;
+    top: 8%;
     }
 
 .project4-mainp {
     width: 86%;
-    top: 7%;
+    top: 11%;
     height: 12%;
     }    
 
@@ -345,8 +345,33 @@ section {
     top: 23%;
 }
 
-.backtotop {
-   width: 20%
+footer {
+    height: 25vh;
 }
+
+.backtotop {
+   width: 28%
+}
+
+.bottom-nav {
+    width: 75%;
+    top: 20%;
+    margin-top: 0%;
+}
+
+.bottom-nav div {
+    padding-right: 0;
+}
+
+.link {
+    left: 6.5%;
+    margin-top: 0;
+}
+
+
+
+
+
+
 
 }
