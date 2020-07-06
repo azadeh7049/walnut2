@@ -192,8 +192,8 @@ footer{
    position: absolute;
    display: flex;
    justify-content: flex-start;
-   width: 31%;
-    bottom: 58%;
+   width: 35%;
+   bottom: 58%;
    }
 
 .bottom-nav a{
