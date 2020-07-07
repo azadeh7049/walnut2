@@ -117,7 +117,7 @@ img.logo
     display: none;
 }
 
-.navbar{
+navbar{
     display: flex;
     position: relative;
     list-style: none;
@@ -131,7 +131,7 @@ img.logo
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 41%;
+    width: 40%;
 }
 
 .navbar li a{
