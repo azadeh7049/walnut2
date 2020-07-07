@@ -117,7 +117,7 @@ img.logo
     display: none;
 }
 
-navbar{
+.navbar{
     display: flex;
     position: relative;
     list-style: none;
