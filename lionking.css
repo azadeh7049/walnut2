@@ -289,6 +289,15 @@ ul.navbar li {
     width: 50%;
 }
 
+.navbar li {
+   text-align: left;
+   width: 60%;
+}
+
+.navbar li a {
+    font-size: 2vw;
+}
+
 ul.navbar li a {
     position: unset;
     display: inline-block;
@@ -307,13 +316,14 @@ ul.navbar li a {
    top: 0%;
 }
 
-ul.navbar {
-    display: block;
+.navbar ul{
+    display: inline;
     text-align: left;
     line-height: 30px;
-    
+    list-style: none;
     height: 240px;
     margin-top: 0;
+    width: 80%;
     }
 
 
@@ -324,9 +334,9 @@ ul.navbar {
     
 }
 
-.fas.fa-bars:hover ~ .navbar li a{
-    background-color: #09133c;
-    color: #f6f890;
+.overlay:hover > .navbar li a{
+   
+    color: #09133c;
 }
 
 .videohero-text {
@@ -982,7 +992,10 @@ width: 40%;
     width: 69%;
 }
 
-.connect{width: 99%;}
+.connect{
+    width: 99%;
+}
+
 footer nav {
    text-align: left;
    padding-left: 10px;
@@ -1024,7 +1037,7 @@ footer nav {
 
 
 
-.
+
 .explore-menu, .academics-menu, .services-menu, .connect-menu {
     font-size: 2.2vw;
 }
