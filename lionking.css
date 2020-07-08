@@ -266,6 +266,10 @@ img.logo{
     overflow: hidden;
 }
 
+.mainpart {
+   top: 0%;
+}
+
 .pg-frame {
     height: 72vh;
 }
