@@ -324,7 +324,7 @@ ul.navbar {
     
 }
 
-.navbar li a:hover{
+.fas.fa-bars:hover ~ .navbar li a{
     background-color: #09133c;
     color: #f6f890;
 }
