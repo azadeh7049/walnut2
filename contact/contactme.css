@@ -78,4 +78,18 @@ background-color:#f6f890;
     width: 88%;
     }
 
+    .bottomnav {
+      width: 40%;
+      left: 14%;
+}
+
+.about-me-bottomnav {
+    width: 43%;
+}
+
+.my-portfolio-bottomnav {
+    width: 75%;
+    left: 6%;
+    }
+
   }
