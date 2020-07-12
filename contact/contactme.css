@@ -30,8 +30,8 @@ h3{
     display: flex;
     justify-content: space-around;
     top: 61%;
-    left: 15%;
-    width: 22%;
+    left: 10%;
+    width: 30%;
 }
 
 .bottomnav a{
@@ -41,14 +41,14 @@ h3{
 }
 
 .about-me-bottomnav{
-   width: 65%;
+   width: 33%;
   height: 5vh;
     text-align: center;
     padding-top: 2%;
 }
 
 .my-portfolio-bottomnav{
-    width: 80%;
+    width: 36%;
     left: 20%;
     text-align: center;
     padding-top: 2%;
