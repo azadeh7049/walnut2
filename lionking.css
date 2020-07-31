@@ -139,12 +139,11 @@ img.logo
 }
 
 .navbar li {
-    width: 24%;
-    margin-left: 5%;
+    width: 18%;
     text-align: center;
    }
 
-.about-me,.my-portfolio,.contact-me,.faculty-staff{
+.about-me,.my-portfolio,.contact-me,.resume{
         color: #f6f890;
         font-size: 1.2vw;
         font-weight: bold;
