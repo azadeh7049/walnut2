@@ -157,14 +157,13 @@ img.logo
  }  
 
 a.about-me-bottomnav{
-    left: 15%;
     text-align: center;
     padding-top: 1%;
     top: 17%;
 }
 
 a.my-portfolio-bottomnav{
-left:47%;
+left: 38%;
 text-align: center;
     position: absolute;
     padding-top: 1%;
@@ -191,15 +190,14 @@ footer{
    position: absolute;
    display: flex;
    justify-content: flex-start;
-   width: 35%;
+   width: 45%;
    bottom: 58%;
    }
 
 .bottom-nav a{
 color: #09133c;
-margin-right: 15%;
 position: absolute;
-width: 30%;
+width: 25%;
 height: 6vh;
 }
 
