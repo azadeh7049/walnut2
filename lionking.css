@@ -10,6 +10,7 @@ body{
      display: grid;
     grid-template: auto/100%; 
     box-sizing: border-box;
+
 }
 
 header{
@@ -75,7 +76,7 @@ img.logo
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 14%;
+    width: 25%;
     font-size: 3.5vw;
     color: #f6f890;
     top: 24%;
@@ -132,6 +133,7 @@ img.logo
     flex-direction: row;
     justify-content: space-around;
     width: 50%;
+    list-style: none;
 }
 
 .navbar li a{
@@ -168,6 +170,7 @@ a.about-me-bottomnav{
     position: absolute;
     padding-top: 1%;
     top: 17%
+
 }
 
 a.my-portfolio-bottomnav{
