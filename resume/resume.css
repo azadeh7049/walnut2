@@ -1,0 +1,57 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-color: unset;
+  box-sizing: border-box;
+  font-family: 'Quicksand','Montserrat','Arial', sans-serif, serif; 
+
+}
+
+body{
+     display: grid;
+    grid-template: auto/100%; 
+    box-sizing: border-box;
+background-color:#f6f890;
+    color: #09133c;
+    width: 100%;
+    height: 350vh;
+}
+
+header{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+.resume-title{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.obj{
+	top: 10%;
+    position: relative;
+    font-weight: 600;
+    height: 7vh;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.QUALIFICATIONS{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 96%;
+}
