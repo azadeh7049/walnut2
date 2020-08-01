@@ -50,8 +50,9 @@ margin-right: auto;
 }
 
 .QUALIFICATIONS{
-position: relative;
-margin-left: auto;
-margin-right: auto;
-width: 96%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    font-weight: bold;
 }
