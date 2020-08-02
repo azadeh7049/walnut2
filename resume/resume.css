@@ -18,16 +18,16 @@ background-color:#f6f890;
 }
 
 header{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	flex-wrap: wrap;
-	align-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 
 }
 .resume-title{
-	display: block;
+  display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,7 +39,7 @@ margin-right: auto;
 }
 
 .obj{
-	top: 10%;
+  top: 10%;
     position: relative;
     font-weight: 600;
     height: 15vh;
@@ -50,20 +50,35 @@ margin-right: auto;
 }
 
 .QUALIFICATIONS{
-    position: relative;
+position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 96%;
+    height: 26vh;
     font-weight: bold;
 }
 
-.expertise{
-  position: relative;
-    top: -14%;
-    width: 96%;
-    height: 30vh;
+.expertise {
+    position: relative;
+     width: 96%;
+    height: 15vh;
     display: block;
+    margin-left: 2%;
+    font-weight: 600;
 }
 
 
-.technical-proficncies
+
+.technical-proficncies{
+  margin-left: 2%;
+    position: relative;
+    font-weight: 600;
+}
+
+.education{
+  font-weight: 600;
+  position: relative;
+  margin-left: 2%;
+
+
+}
