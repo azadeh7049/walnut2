@@ -169,3 +169,84 @@ right: 1%;
 
 }
 
+@media only screen and (max-width: 670px){
+
+body{
+  height: 500vh;
+}
+
+h1{
+  font-size: 5vw;
+}
+
+.obj{
+  top: 0;
+}
+
+.obj, .QUALIFICATIONS {
+    width: 85%;
+}
+
+.QUALIFICATIONS {
+  top: 15%;
+}
+
+h3{
+  font-size: 3vw;
+}
+
+.expertise{
+top: 17vh;
+margin-left: 8%;  
+}
+
+.technical-proficncies{
+top: 19vh;
+margin-left: 8%;  
+}
+
+.education{
+top: 14vh;
+margin-left: 8%;
+}
+
+.experience{
+  top: 10vh;
+margin-left: 8%;
+}
+
+.experience h3{
+  font-size: 3.5vw;
+}
+
+.experience ul{
+  margin-top: 8%;
+}
+
+.irankhodro{
+  top: 3%;
+  margin-left: 8%;
+  font-size: 3.5vw;
+}
+
+.irankhodro h3{
+  font-size: 3.5vw;
+}
+
+.irankhodro-img{
+  margin-top: 3%;
+}
+
+.irankhodro ul{
+  margin-top: 3%;
+}
+
+.references{
+font-size: 4.2vw; 
+}
+
+.bottom-nav li {
+    width: 22%;
+}
+
+}
